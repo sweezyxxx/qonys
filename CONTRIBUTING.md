@@ -3,7 +3,7 @@
 Each member commits through their own account and Git identity. Preserve existing authorship; report preparation does not create another member's implementation contribution.
 
 1. Open or update the actual YouTrack task with one assignee, priority, expected outcome, affected requirement IDs, acceptance criteria and deadline.
-2. Create a task branch, for example `codex/QON-3-submission-documentation` or `feature/QON-2-flutter-init`.
+2. Create a task branch, for example `QON-3-submission-documentation` or `feature/QON-2-flutter-init`.
 3. Make meaningful commits with the issue ID, for example `QON-3: Document backend setup and repository workflow`.
 4. Open a pull request linking the task. Explain the resulting change and actual checks, including any checks that could not run.
 5. Have another team member review it. Resolve material feedback before merging. Link the resulting PR/commit and verification evidence back to YouTrack.

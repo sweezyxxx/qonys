@@ -40,7 +40,7 @@ Notion holds the current project specification. Git retains versioned artifacts 
 
 ## Current stage record — 24 October 2026
 
-[Pull request 1](https://github.com/sweezyxxx/qonys/pull/1) contains the prepared analysis/design package on branch `codex/QON-3-submission-documentation`. It is open and awaits an actual team review before merge. The existing backend initialization remains authored by Yevgeniy; current documentation commits are authored through Temirlan's account.
+[Pull request 2](https://github.com/sweezyxxx/qonys/pull/2) contains the prepared analysis/design package on branch `QON-3-submission-documentation`. It is open and awaits an actual team review before merge. The existing backend initialization remains authored by Yevgeniy; current documentation commits are authored through Temirlan's account.
 
 | Task | Accountable role | Current outcome |
 | --- | --- | --- |
@@ -56,4 +56,4 @@ The new stage task descriptions include a 24 October target, outcome, acceptance
 
 No supervisor feedback has been received. The stakeholder deferred invitations for the supervisor and the remaining team member; access remains an explicit submission action. The checklist requires evidence of progressive repository contributions from every member, without specifying a code quota or commit count. Actual design/review findings and corrections can be committed by their author. Current task creation and document uploads do not reconstruct historical progression.
 
-[Versioned delivery evidence](https://github.com/sweezyxxx/qonys/blob/codex/QON-3-submission-documentation/docs/delivery/2026-10-24.md) identifies checks, outstanding reviews and the stage-tag sequence.
+[Versioned delivery evidence](https://github.com/sweezyxxx/qonys/blob/QON-3-submission-documentation/docs/delivery/2026-10-24.md) identifies checks, outstanding reviews and the stage-tag sequence.
