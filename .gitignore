@@ -1,0 +1,38 @@
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.local
+
+# Python, local data and tools
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+*.sqlite3
+*.sqlite3-journal
+media/
+staticfiles/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage*
+htmlcov/
+
+# Generated working files and dependencies
+work/
+output/
+tmp/
+node_modules/
+.dart_tool/
+.flutter-plugins*
+build/
+dist/
+*.log
+
+# Editor and OS state
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
