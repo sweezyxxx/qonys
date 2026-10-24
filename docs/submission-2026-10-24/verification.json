@@ -1,0 +1,129 @@
+{
+  "verified_at_utc": "2026-10-24T05:55:43.829768+00:00",
+  "report_sections": 11,
+  "contents_pages": {
+    "1": 3,
+    "2": 8,
+    "3": 11,
+    "4": 15,
+    "5": 18,
+    "6": 21,
+    "7": 30,
+    "8": 36,
+    "9": 41,
+    "10": 43,
+    "11": 46
+  },
+  "requirements": {
+    "functional": 40,
+    "non_functional": 10
+  },
+  "example_answers_in_report": false,
+  "documents": [
+    {
+      "file": "QONYS_analysis_design_2026-10-24.docx",
+      "sha256": "9d16ede55f66d14bc045a1ecf03be1f57b823874524b1e726400efe8326ee8cc",
+      "pages": 46,
+      "paragraphs": 301,
+      "tables": 28,
+      "figures": 6,
+      "verification_mode": "DOCX/XML and PDF text and coordinate checks, per stakeholder instruction.",
+      "page_image_review_performed_for_this_revision": false,
+      "text_export_directory": "work/submission-text-check/full-review-r4",
+      "checks": [
+        "All eleven sections reviewed",
+        "Interview source and quote fidelity",
+        "Finding and requirement references",
+        "Interviewer allocation",
+        "Duration omitted",
+        "Title and team order",
+        "40 FR and 10 NFR preserved",
+        "Contents links and final pagination",
+        "XML validity",
+        "Local links",
+        "Repeated table headers",
+        "No tracked changes or comments",
+        "Unchanged embedded figures",
+        "PDF text bounds"
+      ],
+      "accessibility_audit": {
+        "file": "docs\\submission-2026-10-24\\QONYS_analysis_design_2026-10-24.docx",
+        "counts": {
+          "high": 0,
+          "medium": 0,
+          "low": 0
+        },
+        "findings": []
+      }
+    },
+    {
+      "file": "QONYS_interview_preparation.docx",
+      "sha256": "961b57316c391acd39c1a0fd59db63c6aedaec337eda3a69f8fcd24994119867",
+      "pages": 8,
+      "paragraphs": 124,
+      "tables": 0,
+      "figures": 0,
+      "render_directory": "interview-render-review2",
+      "visual_review": "All final pages inspected; unchanged pages cross-checked by pixel comparison.",
+      "accessibility_audit": {
+        "file": "docs/interview-preparation/QONYS_interview_preparation.docx",
+        "counts": {
+          "high": 0,
+          "medium": 0,
+          "low": 0
+        },
+        "findings": []
+      }
+    }
+  ],
+  "section_titles": [
+    "Project proposal",
+    "Evidence of relevance",
+    "Literature review",
+    "Existing system comparison",
+    "Technology comparison",
+    "Requirements specification",
+    "Architecture and diagrams",
+    "UX and prototype",
+    "Verification and evaluation plan",
+    "Project management and risks",
+    "Supervisor feedback"
+  ],
+  "scenario_needs_analysis_in_report": false,
+  "team_order": [
+    "Temirlan Almukhamedov",
+    "Yevgeniy Averyanov",
+    "Bexultan Nishanbek"
+  ],
+  "supplied_transcript_findings_in_report": true,
+  "source_sha256": "d95a52ca62371846522031612092133edfbac36d4c9adc54a2cf9d6ff98bf211",
+  "transcript_evidence": {
+    "sessions": 3,
+    "turns": 280,
+    "main_findings": 8,
+    "verbatim_quotes": 3,
+    "additional_requests": 6,
+    "interviewers": {
+      "D1": "Yevgeniy Averyanov",
+      "B1": "Bexultan Nishanbek",
+      "B2": "Temirlan Almukhamedov"
+    },
+    "participant_context": "Self-described in the supplied transcript.",
+    "interviewer_allocation": "Provided by the team in the project conversation."
+  },
+  "preparation_guide_questions": {
+    "developer": 9,
+    "buyer_1": 10,
+    "buyer_2": 10,
+    "identical_buyer_core": true
+  },
+  "editorial_review": {
+    "all_sections_reviewed": true,
+    "interview_and_prototype_instructions_replaced": true,
+    "future_plans_preserved_in_required_plan_sections": true,
+    "unsubstantiated_completion_claims_removed": true,
+    "supervisor_feedback_status_explicit": true,
+    "markdown_figures_in_their_sections": true,
+    "text_bounds_issues": 0
+  }
+}

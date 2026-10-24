@@ -1,0 +1,12 @@
+flowchart TB
+  WEB["Flutter Web; embedded Three.js / Pannellum"] -->|HTTPS| API["Django / DRF modular application"]
+  WEB -->|Map tiles| OSM["OpenStreetMap sources"]
+  API -->|Infrastructure import| OSM
+  API -->|Validated model adapter| LLM["Local Ollama / Qwen3"]
+  API -->|Shared records / metadata| DB[("PostgreSQL")]
+  API -->|Managed files| FS["Server filesystem storage"]
+  API -->|Task references| MQ["RabbitMQ"]
+  MQ -->|Delivery| WORK["Celery workers"]
+  WORK -->|Reuse domain / data access| API
+  WORK -->|Region processing| SEG["SAM 2 / OpenCV; project-specific grouping / SVG"]
+  WORK -->|Email jobs| SMTP["SMTP mail service"]

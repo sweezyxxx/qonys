@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2100" height="1200" viewBox="0 0 2100 1200">
+<rect width="100%" height="100%" fill="white"/>
+<rect x="60" y="300" width="1980" height="790" fill="none" stroke="#476174" stroke-width="2"/>
+<text x="1050.0" y="325.0" text-anchor="middle" dominant-baseline="central" font-family="Arial,sans-serif" font-size="28" font-weight="700" fill="#152b3b">QONYS system boundary</text>
+<polyline points="430,140 710,140 710,415 690,415" fill="none" stroke="#476174" stroke-width="2"/>
+<polyline points="430,140 710,140 710,560 690,560" fill="none" stroke="#476174" stroke-width="2"/>
+<polyline points="430,140 710,140 710,705 690,705" fill="none" stroke="#476174" stroke-width="2"/>
+<polyline points="430,140 710,140 710,850 690,850" fill="none" stroke="#476174" stroke-width="2"/>
+<polyline points="430,140 710,140 710,995 690,995" fill="none" stroke="#476174" stroke-width="2"/>
+<polyline points="1080,140 1360,140 1360,415 1340,415" fill="none" stroke="#476174" stroke-width="2"/>
+<polyline points="1080,140 1360,140 1360,560 1340,560" fill="none" stroke="#476174" stroke-width="2"/>
+<polyline points="1080,140 1360,140 1360,705 1340,705" fill="none" stroke="#476174" stroke-width="2"/>
+<polyline points="1080,140 1360,140 1360,850 1340,850" fill="none" stroke="#476174" stroke-width="2"/>
+<polyline points="1080,140 1360,140 1360,995 1340,995" fill="none" stroke="#476174" stroke-width="2"/>
+<polyline points="1730,140 2010,140 2010,415 1990,415" fill="none" stroke="#476174" stroke-width="2"/>
+<polyline points="1730,140 2010,140 2010,560 1990,560" fill="none" stroke="#476174" stroke-width="2"/>
+<polyline points="1730,140 2010,140 2010,705 1990,705" fill="none" stroke="#476174" stroke-width="2"/>
+<polyline points="1730,140 2010,140 2010,850 1990,850" fill="none" stroke="#476174" stroke-width="2"/>
+<polyline points="1730,140 2010,140 2010,995 1990,995" fill="none" stroke="#476174" stroke-width="2"/>
+<circle cx="400" cy="106" r="17" fill="white" stroke="#476174" stroke-width="2"/>
+<polyline points="400,123 400,170" fill="none" stroke="#476174" stroke-width="2"/>
+<polyline points="370,140 430,140" fill="none" stroke="#476174" stroke-width="2"/>
+<polyline points="400,170 374,203" fill="none" stroke="#476174" stroke-width="2"/>
+<polyline points="400,170 426,203" fill="none" stroke="#476174" stroke-width="2"/>
+<text x="400" y="230.0" text-anchor="middle" dominant-baseline="central" font-family="Arial,sans-serif" font-size="28" font-weight="700" fill="#152b3b">Buyer / visitor</text>
+<ellipse cx="400.0" cy="415.0" rx="290.0" ry="65.0" fill="white" stroke="#476174" stroke-width="2"/>
+<text x="400.0" y="398.0" text-anchor="middle" dominant-baseline="central" font-family="Arial,sans-serif" font-size="26" font-weight="400" fill="#152b3b">UC-01 Browse and inspect</text>
+<text x="400.0" y="432.0" text-anchor="middle" dominant-baseline="central" font-family="Arial,sans-serif" font-size="26" font-weight="400" fill="#152b3b">Catalogue, development, floor, apartment</text>
+<ellipse cx="400.0" cy="560.0" rx="290.0" ry="65.0" fill="white" stroke="#476174" stroke-width="2"/>
+<text x="400.0" y="543.0" text-anchor="middle" dominant-baseline="central" font-family="Arial,sans-serif" font-size="26" font-weight="400" fill="#152b3b">UC-02 Select with AI</text>
+<text x="400.0" y="577.0" text-anchor="middle" dominant-baseline="central" font-family="Arial,sans-serif" font-size="26" font-weight="400" fill="#152b3b">Preferences and actual catalogue matches</text>
+<ellipse cx="400.0" cy="705.0" rx="290.0" ry="65.0" fill="white" stroke="#476174" stroke-width="2"/>
+<text x="400.0" y="688.0" text-anchor="middle" dominant-baseline="central" font-family="Arial,sans-serif" font-size="26" font-weight="400" fill="#152b3b">UC-03 Compare apartments</text>
+<text x="400.0" y="722.0" text-anchor="middle" dominant-baseline="central" font-family="Arial,sans-serif" font-size="26" font-weight="400" fill="#152b3b">Up to four; across developments</text>
+<ellipse cx="400.0" cy="850.0" rx="290.0" ry="65.0" fill="white" stroke="#476174" stroke-width="2"/>
+<text x="400.0" y="833.0" text-anchor="middle" dominant-baseline="central" font-family="Arial,sans-serif" font-size="26" font-weight="400" fill="#152b3b">UC-04 Manage favourites and history</text>
+<text x="400.0" y="867.0" text-anchor="middle" dominant-baseline="central" font-family="Arial,sans-serif" font-size="26" font-weight="400" fill="#152b3b">Verified buyer only</text>
+<ellipse cx="400.0" cy="995.0" rx="290.0" ry="65.0" fill="white" stroke="#476174" stroke-width="2"/>
+<text x="400.0" y="978.0" text-anchor="middle" dominant-baseline="central" font-family="Arial,sans-serif" font-size="26" font-weight="400" fill="#152b3b">UC-05 Submit an enquiry</text>
+<text x="400.0" y="1012.0" text-anchor="middle" dominant-baseline="central" font-family="Arial,sans-serif" font-size="26" font-weight="400" fill="#152b3b">Verified buyer; current option / price</text>
+<circle cx="1050" cy="106" r="17" fill="white" stroke="#476174" stroke-width="2"/>
+<polyline points="1050,123 1050,170" fill="none" stroke="#476174" stroke-width="2"/>
+<polyline points="1020,140 1080,140" fill="none" stroke="#476174" stroke-width="2"/>
+<polyline points="1050,170 1024,203" fill="none" stroke="#476174" stroke-width="2"/>
+<polyline points="1050,170 1076,203" fill="none" stroke="#476174" stroke-width="2"/>
+<text x="1050" y="230.0" text-anchor="middle" dominant-baseline="central" font-family="Arial,sans-serif" font-size="28" font-weight="700" fill="#152b3b">Property developer</text>
+<ellipse cx="1050.0" cy="415.0" rx="290.0" ry="65.0" fill="white" stroke="#476174" stroke-width="2"/>
+<text x="1050.0" y="398.0" text-anchor="middle" dominant-baseline="central" font-family="Arial,sans-serif" font-size="26" font-weight="400" fill="#152b3b">UC-06 Prepare private content</text>
+<text x="1050.0" y="432.0" text-anchor="middle" dominant-baseline="central" font-family="Arial,sans-serif" font-size="26" font-weight="400" fill="#152b3b">Save and resume an incomplete draft</text>
+<ellipse cx="1050.0" cy="560.0" rx="290.0" ry="65.0" fill="white" stroke="#476174" stroke-width="2"/>
+<text x="1050.0" y="543.0" text-anchor="middle" dominant-baseline="central" font-family="Arial,sans-serif" font-size="26" font-weight="400" fill="#152b3b">UC-07 Review and link regions</text>
+<text x="1050.0" y="577.0" text-anchor="middle" dominant-baseline="central" font-family="Arial,sans-serif" font-size="26" font-weight="400" fill="#152b3b">AI suggestions plus manual correction</text>
+<ellipse cx="1050.0" cy="705.0" rx="290.0" ry="65.0" fill="white" stroke="#476174" stroke-width="2"/>
+<text x="1050.0" y="688.0" text-anchor="middle" dominant-baseline="central" font-family="Arial,sans-serif" font-size="26" font-weight="400" fill="#152b3b">UC-08 Maintain apartments / finishing</text>
+<text x="1050.0" y="722.0" text-anchor="middle" dominant-baseline="central" font-family="Arial,sans-serif" font-size="26" font-weight="400" fill="#152b3b">Prices, media and shared availability</text>
+<ellipse cx="1050.0" cy="850.0" rx="290.0" ry="65.0" fill="white" stroke="#476174" stroke-width="2"/>
+<text x="1050.0" y="833.0" text-anchor="middle" dominant-baseline="central" font-family="Arial,sans-serif" font-size="26" font-weight="400" fill="#152b3b">UC-09 Publish and update</text>
+<text x="1050.0" y="867.0" text-anchor="middle" dominant-baseline="central" font-family="Arial,sans-serif" font-size="26" font-weight="400" fill="#152b3b">Complete first publication; valid saves live</text>
+<ellipse cx="1050.0" cy="995.0" rx="290.0" ry="65.0" fill="white" stroke="#476174" stroke-width="2"/>
+<text x="1050.0" y="978.0" text-anchor="middle" dominant-baseline="central" font-family="Arial,sans-serif" font-size="26" font-weight="400" fill="#152b3b">UC-10 Handle enquiries</text>
+<text x="1050.0" y="1012.0" text-anchor="middle" dominant-baseline="central" font-family="Arial,sans-serif" font-size="26" font-weight="400" fill="#152b3b">Processing states and archive</text>
+<circle cx="1700" cy="106" r="17" fill="white" stroke="#476174" stroke-width="2"/>
+<polyline points="1700,123 1700,170" fill="none" stroke="#476174" stroke-width="2"/>
+<polyline points="1670,140 1730,140" fill="none" stroke="#476174" stroke-width="2"/>
+<polyline points="1700,170 1674,203" fill="none" stroke="#476174" stroke-width="2"/>
+<polyline points="1700,170 1726,203" fill="none" stroke="#476174" stroke-width="2"/>
+<text x="1700" y="230.0" text-anchor="middle" dominant-baseline="central" font-family="Arial,sans-serif" font-size="28" font-weight="700" fill="#152b3b">Platform administrator</text>
+<ellipse cx="1700.0" cy="415.0" rx="290.0" ry="65.0" fill="white" stroke="#476174" stroke-width="2"/>
+<text x="1700.0" y="398.0" text-anchor="middle" dominant-baseline="central" font-family="Arial,sans-serif" font-size="26" font-weight="400" fill="#152b3b">UC-11 Manage developer access</text>
+<text x="1700.0" y="432.0" text-anchor="middle" dominant-baseline="central" font-family="Arial,sans-serif" font-size="26" font-weight="400" fill="#152b3b">Manual verification; suspend / reactivate</text>
+<ellipse cx="1700.0" cy="560.0" rx="290.0" ry="65.0" fill="white" stroke="#476174" stroke-width="2"/>
+<text x="1700.0" y="543.0" text-anchor="middle" dominant-baseline="central" font-family="Arial,sans-serif" font-size="26" font-weight="400" fill="#152b3b">UC-12 Moderate development visibility</text>
+<text x="1700.0" y="577.0" text-anchor="middle" dominant-baseline="central" font-family="Arial,sans-serif" font-size="26" font-weight="400" fill="#152b3b">Hide with reason; restore after correction</text>
+<ellipse cx="1700.0" cy="705.0" rx="290.0" ry="65.0" fill="white" stroke="#476174" stroke-width="2"/>
+<text x="1700.0" y="688.0" text-anchor="middle" dominant-baseline="central" font-family="Arial,sans-serif" font-size="26" font-weight="400" fill="#152b3b">UC-13 Manage reference data</text>
+<text x="1700.0" y="722.0" text-anchor="middle" dominant-baseline="central" font-family="Arial,sans-serif" font-size="26" font-weight="400" fill="#152b3b">Edit / deactivate; protect referenced values</text>
+<ellipse cx="1700.0" cy="850.0" rx="290.0" ry="65.0" fill="white" stroke="#476174" stroke-width="2"/>
+<text x="1700.0" y="833.0" text-anchor="middle" dominant-baseline="central" font-family="Arial,sans-serif" font-size="26" font-weight="400" fill="#152b3b">UC-14 View platform overview</text>
+<text x="1700.0" y="867.0" text-anchor="middle" dominant-baseline="central" font-family="Arial,sans-serif" font-size="26" font-weight="400" fill="#152b3b">Developers, buyers, published, hidden</text>
+<ellipse cx="1700.0" cy="995.0" rx="290.0" ry="65.0" fill="white" stroke="#476174" stroke-width="2"/>
+<text x="1700.0" y="978.0" text-anchor="middle" dominant-baseline="central" font-family="Arial,sans-serif" font-size="26" font-weight="400" fill="#152b3b">UC-15 Inspect audit history</text>
+<text x="1700.0" y="1012.0" text-anchor="middle" dominant-baseline="central" font-family="Arial,sans-serif" font-size="26" font-weight="400" fill="#152b3b">Automatic key-change records and filters</text>
+<text x="1050" y="38.0" text-anchor="middle" dominant-baseline="central" font-family="Arial,sans-serif" font-size="36" font-weight="700" fill="#152b3b">QONYS — Use cases</text>
+<text x="1050" y="1150.0" text-anchor="middle" dominant-baseline="central" font-family="Arial,sans-serif" font-size="26" font-weight="400" fill="#152b3b">Guest access covers browsing, AI selection and comparison. Favourites and new enquiries require verified buyer access.</text>
+</svg>

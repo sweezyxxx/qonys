@@ -1,0 +1,465 @@
+{
+  "width": 1800,
+  "height": 1120,
+  "nodes": [
+    {
+      "xy": [
+        560,
+        95,
+        680,
+        120
+      ],
+      "lines": [
+        "Flutter Web browser client",
+        "Catalogue, assistant, editor and accounts",
+        "Embedded Three.js / Pannellum"
+      ],
+      "kind": "box",
+      "size": 28
+    },
+    {
+      "xy": [
+        60,
+        95,
+        360,
+        120
+      ],
+      "lines": [
+        "OpenStreetMap sources",
+        "Tiles / infrastructure"
+      ],
+      "kind": "box",
+      "size": 28
+    },
+    {
+      "xy": [
+        1380,
+        95,
+        360,
+        120
+      ],
+      "lines": [
+        "SMTP mail service",
+        "Account / enquiry email"
+      ],
+      "kind": "box",
+      "size": 28
+    },
+    {
+      "xy": [
+        470,
+        350,
+        860,
+        260
+      ],
+      "lines": [
+        "Django / DRF \u2014 one modular application",
+        "Identity / companies; catalogue / content / publication",
+        "Selection; region preparation and job orchestration",
+        "Personal features; enquiries and notification jobs",
+        "Administration, references and audit",
+        "Shared permissions, ownership and domain rules"
+      ],
+      "kind": "box",
+      "size": 28
+    },
+    {
+      "xy": [
+        60,
+        420,
+        340,
+        160
+      ],
+      "lines": [
+        "Local Ollama runtime",
+        "Qwen3 model",
+        "Structured preferences"
+      ],
+      "kind": "box",
+      "size": 28
+    },
+    {
+      "xy": [
+        1390,
+        350,
+        350,
+        110
+      ],
+      "lines": [
+        "RabbitMQ",
+        "Task references"
+      ],
+      "kind": "box",
+      "size": 28
+    },
+    {
+      "xy": [
+        1390,
+        570,
+        350,
+        150
+      ],
+      "lines": [
+        "Celery workers",
+        "Shared application rules",
+        "Processing / email jobs"
+      ],
+      "kind": "box",
+      "size": 28
+    },
+    {
+      "xy": [
+        1390,
+        830,
+        350,
+        130
+      ],
+      "lines": [
+        "SAM 2 + OpenCV",
+        "Project processing",
+        "Suggested regions / SVG"
+      ],
+      "kind": "box",
+      "size": 28
+    },
+    {
+      "xy": [
+        470,
+        850,
+        400,
+        140
+      ],
+      "lines": [
+        "PostgreSQL",
+        "Owned records, prices, states",
+        "Snapshots, links, job metadata"
+      ],
+      "kind": "box",
+      "size": 26
+    },
+    {
+      "xy": [
+        940,
+        850,
+        400,
+        140
+      ],
+      "lines": [
+        "Server filesystem storage",
+        "Uploads, SVG and GLB",
+        "Owned and private-file access"
+      ],
+      "kind": "box",
+      "size": 26
+    }
+  ],
+  "edges": [
+    {
+      "points": [
+        [
+          900,
+          215
+        ],
+        [
+          900,
+          350
+        ]
+      ],
+      "arrow": true
+    },
+    {
+      "points": [
+        [
+          560,
+          155
+        ],
+        [
+          420,
+          155
+        ]
+      ],
+      "arrow": true
+    },
+    {
+      "points": [
+        [
+          470,
+          395
+        ],
+        [
+          440,
+          395
+        ],
+        [
+          440,
+          270
+        ],
+        [
+          240,
+          270
+        ],
+        [
+          240,
+          215
+        ]
+      ],
+      "arrow": true
+    },
+    {
+      "points": [
+        [
+          470,
+          540
+        ],
+        [
+          430,
+          540
+        ],
+        [
+          430,
+          650
+        ],
+        [
+          230,
+          650
+        ],
+        [
+          230,
+          580
+        ]
+      ],
+      "arrow": true
+    },
+    {
+      "points": [
+        [
+          1330,
+          405
+        ],
+        [
+          1390,
+          405
+        ]
+      ],
+      "arrow": true
+    },
+    {
+      "points": [
+        [
+          1565,
+          460
+        ],
+        [
+          1565,
+          570
+        ]
+      ],
+      "arrow": true
+    },
+    {
+      "points": [
+        [
+          1565,
+          720
+        ],
+        [
+          1565,
+          830
+        ]
+      ],
+      "arrow": true
+    },
+    {
+      "points": [
+        [
+          1390,
+          645
+        ],
+        [
+          1360,
+          645
+        ],
+        [
+          1360,
+          560
+        ],
+        [
+          1330,
+          560
+        ]
+      ],
+      "arrow": true
+    },
+    {
+      "points": [
+        [
+          670,
+          610
+        ],
+        [
+          670,
+          850
+        ]
+      ],
+      "arrow": true
+    },
+    {
+      "points": [
+        [
+          1120,
+          610
+        ],
+        [
+          1120,
+          850
+        ]
+      ],
+      "arrow": true
+    },
+    {
+      "points": [
+        [
+          1740,
+          635
+        ],
+        [
+          1765,
+          635
+        ],
+        [
+          1765,
+          155
+        ],
+        [
+          1740,
+          155
+        ]
+      ],
+      "arrow": true
+    }
+  ],
+  "labels": [
+    {
+      "xy": [
+        900,
+        38
+      ],
+      "lines": [
+        "QONYS \u2014 Component architecture"
+      ],
+      "size": 36,
+      "bold": true
+    },
+    {
+      "xy": [
+        1020,
+        280
+      ],
+      "lines": [
+        "HTTPS / API"
+      ],
+      "size": 26,
+      "bold": false
+    },
+    {
+      "xy": [
+        490,
+        120
+      ],
+      "lines": [
+        "Tiles"
+      ],
+      "size": 23,
+      "bold": false
+    },
+    {
+      "xy": [
+        235,
+        310
+      ],
+      "lines": [
+        "Infrastructure import"
+      ],
+      "size": 24,
+      "bold": false
+    },
+    {
+      "xy": [
+        230,
+        700
+      ],
+      "lines": [
+        "Validated model adapter"
+      ],
+      "size": 24,
+      "bold": false
+    },
+    {
+      "xy": [
+        1660,
+        515
+      ],
+      "lines": [
+        "Delivery"
+      ],
+      "size": 24,
+      "bold": false
+    },
+    {
+      "xy": [
+        1660,
+        775
+      ],
+      "lines": [
+        "Region jobs"
+      ],
+      "size": 24,
+      "bold": false
+    },
+    {
+      "xy": [
+        805,
+        760
+      ],
+      "lines": [
+        "Records / metadata"
+      ],
+      "size": 25,
+      "bold": false
+    },
+    {
+      "xy": [
+        1240,
+        760
+      ],
+      "lines": [
+        "Managed files"
+      ],
+      "size": 25,
+      "bold": false
+    },
+    {
+      "xy": [
+        1560,
+        275
+      ],
+      "lines": [
+        "Email jobs"
+      ],
+      "size": 24,
+      "bold": false
+    },
+    {
+      "xy": [
+        900,
+        1060
+      ],
+      "lines": [
+        "Workers reuse the shared application and data-access layer.",
+        "Local inference and background image processing use controlled application interfaces."
+      ],
+      "size": 25,
+      "bold": false
+    }
+  ]
+}

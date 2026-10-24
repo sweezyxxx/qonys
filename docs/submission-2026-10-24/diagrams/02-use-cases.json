@@ -1,0 +1,603 @@
+{
+  "width": 2100,
+  "height": 1200,
+  "nodes": [
+    {
+      "xy": [
+        60,
+        300,
+        1980,
+        790
+      ],
+      "lines": [
+        "QONYS system boundary"
+      ],
+      "kind": "boundary",
+      "size": 28
+    },
+    {
+      "xy": [
+        400,
+        135
+      ],
+      "lines": [
+        "Buyer / visitor"
+      ],
+      "kind": "actor",
+      "size": 28
+    },
+    {
+      "xy": [
+        110,
+        350,
+        580,
+        130
+      ],
+      "lines": [
+        "UC-01 Browse and inspect",
+        "Catalogue, development, floor, apartment"
+      ],
+      "kind": "ellipse",
+      "size": 26
+    },
+    {
+      "xy": [
+        110,
+        495,
+        580,
+        130
+      ],
+      "lines": [
+        "UC-02 Select with AI",
+        "Preferences and actual catalogue matches"
+      ],
+      "kind": "ellipse",
+      "size": 26
+    },
+    {
+      "xy": [
+        110,
+        640,
+        580,
+        130
+      ],
+      "lines": [
+        "UC-03 Compare apartments",
+        "Up to four; across developments"
+      ],
+      "kind": "ellipse",
+      "size": 26
+    },
+    {
+      "xy": [
+        110,
+        785,
+        580,
+        130
+      ],
+      "lines": [
+        "UC-04 Manage favourites and history",
+        "Verified buyer only"
+      ],
+      "kind": "ellipse",
+      "size": 26
+    },
+    {
+      "xy": [
+        110,
+        930,
+        580,
+        130
+      ],
+      "lines": [
+        "UC-05 Submit an enquiry",
+        "Verified buyer; current option / price"
+      ],
+      "kind": "ellipse",
+      "size": 26
+    },
+    {
+      "xy": [
+        1050,
+        135
+      ],
+      "lines": [
+        "Property developer"
+      ],
+      "kind": "actor",
+      "size": 28
+    },
+    {
+      "xy": [
+        760,
+        350,
+        580,
+        130
+      ],
+      "lines": [
+        "UC-06 Prepare private content",
+        "Save and resume an incomplete draft"
+      ],
+      "kind": "ellipse",
+      "size": 26
+    },
+    {
+      "xy": [
+        760,
+        495,
+        580,
+        130
+      ],
+      "lines": [
+        "UC-07 Review and link regions",
+        "AI suggestions plus manual correction"
+      ],
+      "kind": "ellipse",
+      "size": 26
+    },
+    {
+      "xy": [
+        760,
+        640,
+        580,
+        130
+      ],
+      "lines": [
+        "UC-08 Maintain apartments / finishing",
+        "Prices, media and shared availability"
+      ],
+      "kind": "ellipse",
+      "size": 26
+    },
+    {
+      "xy": [
+        760,
+        785,
+        580,
+        130
+      ],
+      "lines": [
+        "UC-09 Publish and update",
+        "Complete first publication; valid saves live"
+      ],
+      "kind": "ellipse",
+      "size": 26
+    },
+    {
+      "xy": [
+        760,
+        930,
+        580,
+        130
+      ],
+      "lines": [
+        "UC-10 Handle enquiries",
+        "Processing states and archive"
+      ],
+      "kind": "ellipse",
+      "size": 26
+    },
+    {
+      "xy": [
+        1700,
+        135
+      ],
+      "lines": [
+        "Platform administrator"
+      ],
+      "kind": "actor",
+      "size": 28
+    },
+    {
+      "xy": [
+        1410,
+        350,
+        580,
+        130
+      ],
+      "lines": [
+        "UC-11 Manage developer access",
+        "Manual verification; suspend / reactivate"
+      ],
+      "kind": "ellipse",
+      "size": 26
+    },
+    {
+      "xy": [
+        1410,
+        495,
+        580,
+        130
+      ],
+      "lines": [
+        "UC-12 Moderate development visibility",
+        "Hide with reason; restore after correction"
+      ],
+      "kind": "ellipse",
+      "size": 26
+    },
+    {
+      "xy": [
+        1410,
+        640,
+        580,
+        130
+      ],
+      "lines": [
+        "UC-13 Manage reference data",
+        "Edit / deactivate; protect referenced values"
+      ],
+      "kind": "ellipse",
+      "size": 26
+    },
+    {
+      "xy": [
+        1410,
+        785,
+        580,
+        130
+      ],
+      "lines": [
+        "UC-14 View platform overview",
+        "Developers, buyers, published, hidden"
+      ],
+      "kind": "ellipse",
+      "size": 26
+    },
+    {
+      "xy": [
+        1410,
+        930,
+        580,
+        130
+      ],
+      "lines": [
+        "UC-15 Inspect audit history",
+        "Automatic key-change records and filters"
+      ],
+      "kind": "ellipse",
+      "size": 26
+    }
+  ],
+  "edges": [
+    {
+      "points": [
+        [
+          430,
+          140
+        ],
+        [
+          710,
+          140
+        ],
+        [
+          710,
+          415
+        ],
+        [
+          690,
+          415
+        ]
+      ],
+      "arrow": false
+    },
+    {
+      "points": [
+        [
+          430,
+          140
+        ],
+        [
+          710,
+          140
+        ],
+        [
+          710,
+          560
+        ],
+        [
+          690,
+          560
+        ]
+      ],
+      "arrow": false
+    },
+    {
+      "points": [
+        [
+          430,
+          140
+        ],
+        [
+          710,
+          140
+        ],
+        [
+          710,
+          705
+        ],
+        [
+          690,
+          705
+        ]
+      ],
+      "arrow": false
+    },
+    {
+      "points": [
+        [
+          430,
+          140
+        ],
+        [
+          710,
+          140
+        ],
+        [
+          710,
+          850
+        ],
+        [
+          690,
+          850
+        ]
+      ],
+      "arrow": false
+    },
+    {
+      "points": [
+        [
+          430,
+          140
+        ],
+        [
+          710,
+          140
+        ],
+        [
+          710,
+          995
+        ],
+        [
+          690,
+          995
+        ]
+      ],
+      "arrow": false
+    },
+    {
+      "points": [
+        [
+          1080,
+          140
+        ],
+        [
+          1360,
+          140
+        ],
+        [
+          1360,
+          415
+        ],
+        [
+          1340,
+          415
+        ]
+      ],
+      "arrow": false
+    },
+    {
+      "points": [
+        [
+          1080,
+          140
+        ],
+        [
+          1360,
+          140
+        ],
+        [
+          1360,
+          560
+        ],
+        [
+          1340,
+          560
+        ]
+      ],
+      "arrow": false
+    },
+    {
+      "points": [
+        [
+          1080,
+          140
+        ],
+        [
+          1360,
+          140
+        ],
+        [
+          1360,
+          705
+        ],
+        [
+          1340,
+          705
+        ]
+      ],
+      "arrow": false
+    },
+    {
+      "points": [
+        [
+          1080,
+          140
+        ],
+        [
+          1360,
+          140
+        ],
+        [
+          1360,
+          850
+        ],
+        [
+          1340,
+          850
+        ]
+      ],
+      "arrow": false
+    },
+    {
+      "points": [
+        [
+          1080,
+          140
+        ],
+        [
+          1360,
+          140
+        ],
+        [
+          1360,
+          995
+        ],
+        [
+          1340,
+          995
+        ]
+      ],
+      "arrow": false
+    },
+    {
+      "points": [
+        [
+          1730,
+          140
+        ],
+        [
+          2010,
+          140
+        ],
+        [
+          2010,
+          415
+        ],
+        [
+          1990,
+          415
+        ]
+      ],
+      "arrow": false
+    },
+    {
+      "points": [
+        [
+          1730,
+          140
+        ],
+        [
+          2010,
+          140
+        ],
+        [
+          2010,
+          560
+        ],
+        [
+          1990,
+          560
+        ]
+      ],
+      "arrow": false
+    },
+    {
+      "points": [
+        [
+          1730,
+          140
+        ],
+        [
+          2010,
+          140
+        ],
+        [
+          2010,
+          705
+        ],
+        [
+          1990,
+          705
+        ]
+      ],
+      "arrow": false
+    },
+    {
+      "points": [
+        [
+          1730,
+          140
+        ],
+        [
+          2010,
+          140
+        ],
+        [
+          2010,
+          850
+        ],
+        [
+          1990,
+          850
+        ]
+      ],
+      "arrow": false
+    },
+    {
+      "points": [
+        [
+          1730,
+          140
+        ],
+        [
+          2010,
+          140
+        ],
+        [
+          2010,
+          995
+        ],
+        [
+          1990,
+          995
+        ]
+      ],
+      "arrow": false
+    }
+  ],
+  "labels": [
+    {
+      "xy": [
+        1050,
+        38
+      ],
+      "lines": [
+        "QONYS \u2014 Use cases"
+      ],
+      "size": 36,
+      "bold": true
+    },
+    {
+      "xy": [
+        1050,
+        1150
+      ],
+      "lines": [
+        "Guest access covers browsing, AI selection and comparison. Favourites and new enquiries require verified buyer access."
+      ],
+      "size": 26,
+      "bold": false
+    }
+  ]
+}

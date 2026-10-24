@@ -1,0 +1,223 @@
+{
+  "width": 1600,
+  "height": 960,
+  "nodes": [
+    {
+      "xy": [
+        60,
+        125,
+        360,
+        150
+      ],
+      "lines": [
+        "Buyer / visitor",
+        "Browse, compare, select",
+        "Verified: save / enquire"
+      ],
+      "kind": "box",
+      "size": 28
+    },
+    {
+      "xy": [
+        60,
+        410,
+        360,
+        150
+      ],
+      "lines": [
+        "Property developer",
+        "Prepare owned content",
+        "Publish / handle enquiries"
+      ],
+      "kind": "box",
+      "size": 28
+    },
+    {
+      "xy": [
+        60,
+        695,
+        360,
+        150
+      ],
+      "lines": [
+        "Platform administrator",
+        "Access and visibility",
+        "References, counts, audit"
+      ],
+      "kind": "box",
+      "size": 28
+    },
+    {
+      "xy": [
+        580,
+        290,
+        440,
+        370
+      ],
+      "lines": [
+        "QONYS platform",
+        "Shared development catalogue",
+        "Building / floor / apartment links",
+        "Buyer selection and enquiries",
+        "Developer workspace",
+        "Local AI and supplied viewers"
+      ],
+      "kind": "box",
+      "size": 28
+    },
+    {
+      "xy": [
+        1190,
+        190,
+        350,
+        150
+      ],
+      "lines": [
+        "OpenStreetMap sources",
+        "Map / infrastructure",
+        "External data dependency"
+      ],
+      "kind": "box",
+      "size": 28
+    },
+    {
+      "xy": [
+        1190,
+        630,
+        350,
+        150
+      ],
+      "lines": [
+        "SMTP mail service",
+        "Verify / activate / reset",
+        "New-enquiry notifications"
+      ],
+      "kind": "box",
+      "size": 28
+    }
+  ],
+  "edges": [
+    {
+      "points": [
+        [
+          420,
+          200
+        ],
+        [
+          500,
+          200
+        ],
+        [
+          500,
+          370
+        ],
+        [
+          580,
+          370
+        ]
+      ],
+      "arrow": true
+    },
+    {
+      "points": [
+        [
+          420,
+          485
+        ],
+        [
+          580,
+          485
+        ]
+      ],
+      "arrow": true
+    },
+    {
+      "points": [
+        [
+          420,
+          770
+        ],
+        [
+          500,
+          770
+        ],
+        [
+          500,
+          580
+        ],
+        [
+          580,
+          580
+        ]
+      ],
+      "arrow": true
+    },
+    {
+      "points": [
+        [
+          1020,
+          370
+        ],
+        [
+          1100,
+          370
+        ],
+        [
+          1100,
+          265
+        ],
+        [
+          1190,
+          265
+        ]
+      ],
+      "arrow": true
+    },
+    {
+      "points": [
+        [
+          1020,
+          580
+        ],
+        [
+          1100,
+          580
+        ],
+        [
+          1100,
+          705
+        ],
+        [
+          1190,
+          705
+        ]
+      ],
+      "arrow": true
+    }
+  ],
+  "labels": [
+    {
+      "xy": [
+        800,
+        42
+      ],
+      "lines": [
+        "QONYS \u2014 System context"
+      ],
+      "size": 36,
+      "bold": true
+    },
+    {
+      "xy": [
+        800,
+        910
+      ],
+      "lines": [
+        "Local model execution belongs to QONYS; no paid model API is selected.",
+        "Enquiries do not purchase, pay for or automatically reserve property."
+      ],
+      "size": 25,
+      "bold": false
+    }
+  ]
+}

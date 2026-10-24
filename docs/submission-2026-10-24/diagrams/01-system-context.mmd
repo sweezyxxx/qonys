@@ -1,0 +1,6 @@
+flowchart LR
+  B["Buyer / visitor"] -->|"Browse; verified save / enquire"| Q["QONYS platform"]
+  D["Property developer"] -->|"Owned content, publication, enquiries"| Q
+  A["Platform administrator"] -->|"Access, visibility, references, overview, audit"| Q
+  Q -->|"Map tiles / infrastructure"| O["OpenStreetMap sources"]
+  Q -->|"Account emails / enquiry notifications"| E["SMTP mail service"]

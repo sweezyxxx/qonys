@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1120" viewBox="0 0 1800 1120">
+<rect width="100%" height="100%" fill="white"/>
+<polyline points="900,215 900,350" fill="none" stroke="#476174" stroke-width="2"/>
+<polygon points="900,350 894.1587248653702,336.18408508995674 905.8412751346298,336.18408508995674" fill="#476174"/>
+<polyline points="560,155 420,155" fill="none" stroke="#476174" stroke-width="2"/>
+<polygon points="420,155 433.81591491004326,149.15872486537023 433.81591491004326,160.84127513462977" fill="#476174"/>
+<polyline points="470,395 440,395 440,270 240,270 240,215" fill="none" stroke="#476174" stroke-width="2"/>
+<polygon points="240,215 245.84127513462977,228.81591491004326 234.15872486537023,228.81591491004326" fill="#476174"/>
+<polyline points="470,540 430,540 430,650 230,650 230,580" fill="none" stroke="#476174" stroke-width="2"/>
+<polygon points="230,580 235.84127513462977,593.8159149100433 224.15872486537023,593.8159149100433" fill="#476174"/>
+<polyline points="1330,405 1390,405" fill="none" stroke="#476174" stroke-width="2"/>
+<polygon points="1390,405 1376.1840850899566,410.84127513462977 1376.1840850899566,399.15872486537023" fill="#476174"/>
+<polyline points="1565,460 1565,570" fill="none" stroke="#476174" stroke-width="2"/>
+<polygon points="1565,570 1559.1587248653702,556.1840850899567 1570.8412751346298,556.1840850899567" fill="#476174"/>
+<polyline points="1565,720 1565,830" fill="none" stroke="#476174" stroke-width="2"/>
+<polygon points="1565,830 1559.1587248653702,816.1840850899567 1570.8412751346298,816.1840850899567" fill="#476174"/>
+<polyline points="1390,645 1360,645 1360,560 1330,560" fill="none" stroke="#476174" stroke-width="2"/>
+<polygon points="1330,560 1343.8159149100434,554.1587248653702 1343.8159149100434,565.8412751346298" fill="#476174"/>
+<polyline points="670,610 670,850" fill="none" stroke="#476174" stroke-width="2"/>
+<polygon points="670,850 664.1587248653702,836.1840850899567 675.8412751346298,836.1840850899567" fill="#476174"/>
+<polyline points="1120,610 1120,850" fill="none" stroke="#476174" stroke-width="2"/>
+<polygon points="1120,850 1114.1587248653702,836.1840850899567 1125.8412751346298,836.1840850899567" fill="#476174"/>
+<polyline points="1740,635 1765,635 1765,155 1740,155" fill="none" stroke="#476174" stroke-width="2"/>
+<polygon points="1740,155 1753.8159149100434,149.15872486537023 1753.8159149100434,160.84127513462977" fill="#476174"/>
+<rect x="560" y="95" width="680" height="120" fill="#f1f5f8" stroke="#476174" stroke-width="2"/>
+<text x="900.0" y="119.0" text-anchor="middle" dominant-baseline="central" font-family="Arial,sans-serif" font-size="28" font-weight="400" fill="#152b3b">Flutter Web browser client</text>
+<text x="900.0" y="155.0" text-anchor="middle" dominant-baseline="central" font-family="Arial,sans-serif" font-size="28" font-weight="400" fill="#152b3b">Catalogue, assistant, editor and accounts</text>
+<text x="900.0" y="191.0" text-anchor="middle" dominant-baseline="central" font-family="Arial,sans-serif" font-size="28" font-weight="400" fill="#152b3b">Embedded Three.js / Pannellum</text>
+<rect x="60" y="95" width="360" height="120" fill="#f1f5f8" stroke="#476174" stroke-width="2"/>
+<text x="240.0" y="137.0" text-anchor="middle" dominant-baseline="central" font-family="Arial,sans-serif" font-size="28" font-weight="400" fill="#152b3b">OpenStreetMap sources</text>
+<text x="240.0" y="173.0" text-anchor="middle" dominant-baseline="central" font-family="Arial,sans-serif" font-size="28" font-weight="400" fill="#152b3b">Tiles / infrastructure</text>
+<rect x="1380" y="95" width="360" height="120" fill="#f1f5f8" stroke="#476174" stroke-width="2"/>
+<text x="1560.0" y="137.0" text-anchor="middle" dominant-baseline="central" font-family="Arial,sans-serif" font-size="28" font-weight="400" fill="#152b3b">SMTP mail service</text>
+<text x="1560.0" y="173.0" text-anchor="middle" dominant-baseline="central" font-family="Arial,sans-serif" font-size="28" font-weight="400" fill="#152b3b">Account / enquiry email</text>
+<rect x="470" y="350" width="860" height="260" fill="#f1f5f8" stroke="#476174" stroke-width="2"/>
+<text x="900.0" y="390.0" text-anchor="middle" dominant-baseline="central" font-family="Arial,sans-serif" font-size="28" font-weight="400" fill="#152b3b">Django / DRF — one modular application</text>
+<text x="900.0" y="426.0" text-anchor="middle" dominant-baseline="central" font-family="Arial,sans-serif" font-size="28" font-weight="400" fill="#152b3b">Identity / companies; catalogue / content / publication</text>
+<text x="900.0" y="462.0" text-anchor="middle" dominant-baseline="central" font-family="Arial,sans-serif" font-size="28" font-weight="400" fill="#152b3b">Selection; region preparation and job orchestration</text>
+<text x="900.0" y="498.0" text-anchor="middle" dominant-baseline="central" font-family="Arial,sans-serif" font-size="28" font-weight="400" fill="#152b3b">Personal features; enquiries and notification jobs</text>
+<text x="900.0" y="534.0" text-anchor="middle" dominant-baseline="central" font-family="Arial,sans-serif" font-size="28" font-weight="400" fill="#152b3b">Administration, references and audit</text>
+<text x="900.0" y="570.0" text-anchor="middle" dominant-baseline="central" font-family="Arial,sans-serif" font-size="28" font-weight="400" fill="#152b3b">Shared permissions, ownership and domain rules</text>
+<rect x="60" y="420" width="340" height="160" fill="#f1f5f8" stroke="#476174" stroke-width="2"/>
+<text x="230.0" y="464.0" text-anchor="middle" dominant-baseline="central" font-family="Arial,sans-serif" font-size="28" font-weight="400" fill="#152b3b">Local Ollama runtime</text>
+<text x="230.0" y="500.0" text-anchor="middle" dominant-baseline="central" font-family="Arial,sans-serif" font-size="28" font-weight="400" fill="#152b3b">Qwen3 model</text>
+<text x="230.0" y="536.0" text-anchor="middle" dominant-baseline="central" font-family="Arial,sans-serif" font-size="28" font-weight="400" fill="#152b3b">Structured preferences</text>
+<rect x="1390" y="350" width="350" height="110" fill="#f1f5f8" stroke="#476174" stroke-width="2"/>
+<text x="1565.0" y="387.0" text-anchor="middle" dominant-baseline="central" font-family="Arial,sans-serif" font-size="28" font-weight="400" fill="#152b3b">RabbitMQ</text>
+<text x="1565.0" y="423.0" text-anchor="middle" dominant-baseline="central" font-family="Arial,sans-serif" font-size="28" font-weight="400" fill="#152b3b">Task references</text>
+<rect x="1390" y="570" width="350" height="150" fill="#f1f5f8" stroke="#476174" stroke-width="2"/>
+<text x="1565.0" y="609.0" text-anchor="middle" dominant-baseline="central" font-family="Arial,sans-serif" font-size="28" font-weight="400" fill="#152b3b">Celery workers</text>
+<text x="1565.0" y="645.0" text-anchor="middle" dominant-baseline="central" font-family="Arial,sans-serif" font-size="28" font-weight="400" fill="#152b3b">Shared application rules</text>
+<text x="1565.0" y="681.0" text-anchor="middle" dominant-baseline="central" font-family="Arial,sans-serif" font-size="28" font-weight="400" fill="#152b3b">Processing / email jobs</text>
+<rect x="1390" y="830" width="350" height="130" fill="#f1f5f8" stroke="#476174" stroke-width="2"/>
+<text x="1565.0" y="859.0" text-anchor="middle" dominant-baseline="central" font-family="Arial,sans-serif" font-size="28" font-weight="400" fill="#152b3b">SAM 2 + OpenCV</text>
+<text x="1565.0" y="895.0" text-anchor="middle" dominant-baseline="central" font-family="Arial,sans-serif" font-size="28" font-weight="400" fill="#152b3b">Project processing</text>
+<text x="1565.0" y="931.0" text-anchor="middle" dominant-baseline="central" font-family="Arial,sans-serif" font-size="28" font-weight="400" fill="#152b3b">Suggested regions / SVG</text>
+<rect x="470" y="850" width="400" height="140" fill="#f1f5f8" stroke="#476174" stroke-width="2"/>
+<text x="670.0" y="886.0" text-anchor="middle" dominant-baseline="central" font-family="Arial,sans-serif" font-size="26" font-weight="400" fill="#152b3b">PostgreSQL</text>
+<text x="670.0" y="920.0" text-anchor="middle" dominant-baseline="central" font-family="Arial,sans-serif" font-size="26" font-weight="400" fill="#152b3b">Owned records, prices, states</text>
+<text x="670.0" y="954.0" text-anchor="middle" dominant-baseline="central" font-family="Arial,sans-serif" font-size="26" font-weight="400" fill="#152b3b">Snapshots, links, job metadata</text>
+<rect x="940" y="850" width="400" height="140" fill="#f1f5f8" stroke="#476174" stroke-width="2"/>
+<text x="1140.0" y="886.0" text-anchor="middle" dominant-baseline="central" font-family="Arial,sans-serif" font-size="26" font-weight="400" fill="#152b3b">Server filesystem storage</text>
+<text x="1140.0" y="920.0" text-anchor="middle" dominant-baseline="central" font-family="Arial,sans-serif" font-size="26" font-weight="400" fill="#152b3b">Uploads, SVG and GLB</text>
+<text x="1140.0" y="954.0" text-anchor="middle" dominant-baseline="central" font-family="Arial,sans-serif" font-size="26" font-weight="400" fill="#152b3b">Owned and private-file access</text>
+<text x="900" y="38.0" text-anchor="middle" dominant-baseline="central" font-family="Arial,sans-serif" font-size="36" font-weight="700" fill="#152b3b">QONYS — Component architecture</text>
+<text x="1020" y="280.0" text-anchor="middle" dominant-baseline="central" font-family="Arial,sans-serif" font-size="26" font-weight="400" fill="#152b3b">HTTPS / API</text>
+<text x="490" y="120.0" text-anchor="middle" dominant-baseline="central" font-family="Arial,sans-serif" font-size="23" font-weight="400" fill="#152b3b">Tiles</text>
+<text x="235" y="310.0" text-anchor="middle" dominant-baseline="central" font-family="Arial,sans-serif" font-size="24" font-weight="400" fill="#152b3b">Infrastructure import</text>
+<text x="230" y="700.0" text-anchor="middle" dominant-baseline="central" font-family="Arial,sans-serif" font-size="24" font-weight="400" fill="#152b3b">Validated model adapter</text>
+<text x="1660" y="515.0" text-anchor="middle" dominant-baseline="central" font-family="Arial,sans-serif" font-size="24" font-weight="400" fill="#152b3b">Delivery</text>
+<text x="1660" y="775.0" text-anchor="middle" dominant-baseline="central" font-family="Arial,sans-serif" font-size="24" font-weight="400" fill="#152b3b">Region jobs</text>
+<text x="805" y="760.0" text-anchor="middle" dominant-baseline="central" font-family="Arial,sans-serif" font-size="25" font-weight="400" fill="#152b3b">Records / metadata</text>
+<text x="1240" y="760.0" text-anchor="middle" dominant-baseline="central" font-family="Arial,sans-serif" font-size="25" font-weight="400" fill="#152b3b">Managed files</text>
+<text x="1560" y="275.0" text-anchor="middle" dominant-baseline="central" font-family="Arial,sans-serif" font-size="24" font-weight="400" fill="#152b3b">Email jobs</text>
+<text x="900" y="1043.5" text-anchor="middle" dominant-baseline="central" font-family="Arial,sans-serif" font-size="25" font-weight="400" fill="#152b3b">Workers reuse the shared application and data-access layer.</text>
+<text x="900" y="1076.5" text-anchor="middle" dominant-baseline="central" font-family="Arial,sans-serif" font-size="25" font-weight="400" fill="#152b3b">Local inference and background image processing use controlled application interfaces.</text>
+</svg>

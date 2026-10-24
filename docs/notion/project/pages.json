@@ -1,0 +1,354 @@
+{
+  "root_id": "402878b5-3f09-80a9-beba-fc8ef6d32613",
+  "branches": [
+    {
+      "id": "403878b5-3f09-8157-93b1-d6ba8d168cbf",
+      "url": "https://app.notion.com/p/403878b53f09815793b1d6ba8d168cbf?pvs=204",
+      "properties": {
+        "title": "defence24.10.26"
+      }
+    },
+    {
+      "id": "403878b5-3f09-812a-ba09-fce6a416c47e",
+      "url": "https://app.notion.com/p/403878b53f09812aba09fce6a416c47e?pvs=204",
+      "properties": {
+        "title": "01 Product"
+      }
+    },
+    {
+      "id": "403878b5-3f09-81ca-9a18-c9880a0883e7",
+      "url": "https://app.notion.com/p/403878b53f0981ca9a18c9880a0883e7?pvs=204",
+      "properties": {
+        "title": "02 Functional Modules"
+      }
+    },
+    {
+      "id": "403878b5-3f09-81e6-9a91-f93faf714427",
+      "url": "https://app.notion.com/p/403878b53f0981e69a91f93faf714427?pvs=204",
+      "properties": {
+        "title": "03 Architecture and Data"
+      }
+    },
+    {
+      "id": "403878b5-3f09-81df-b262-eaf09615cd6e",
+      "url": "https://app.notion.com/p/403878b53f0981dfb262eaf09615cd6e?pvs=204",
+      "properties": {
+        "title": "04 Interfaces and Processing"
+      }
+    },
+    {
+      "id": "403878b5-3f09-8130-959e-d38e680c26e9",
+      "url": "https://app.notion.com/p/403878b53f098130959ed38e680c26e9?pvs=204",
+      "properties": {
+        "title": "05 UX and Content"
+      }
+    },
+    {
+      "id": "403878b5-3f09-819f-9d93-e8140259ee00",
+      "url": "https://app.notion.com/p/403878b53f09819f9d93e8140259ee00?pvs=204",
+      "properties": {
+        "title": "06 Quality and Verification"
+      }
+    },
+    {
+      "id": "403878b5-3f09-81a6-b947-f0cdba11cbb2",
+      "url": "https://app.notion.com/p/403878b53f0981a6b947f0cdba11cbb2?pvs=204",
+      "properties": {
+        "title": "07 Team and Delivery"
+      }
+    }
+  ],
+  "pages": [
+    {
+      "slug": "overview",
+      "branch": 1,
+      "title": "Product Overview and Scope",
+      "id": "403878b5-3f09-812d-b0e9-d88ba9d3ecae",
+      "url": "https://app.notion.com/p/403878b53f09812db0e9d88ba9d3ecae?pvs=204",
+      "properties": {
+        "title": "Product Overview and Scope"
+      }
+    },
+    {
+      "slug": "roles",
+      "branch": 1,
+      "title": "Roles and Access Matrix",
+      "id": "403878b5-3f09-81aa-a4da-ce31acc468dd",
+      "url": "https://app.notion.com/p/403878b53f0981aaa4dace31acc468dd?pvs=204",
+      "properties": {
+        "title": "Roles and Access Matrix"
+      }
+    },
+    {
+      "slug": "accounts",
+      "branch": 2,
+      "title": "Accounts and Company Access",
+      "id": "403878b5-3f09-814c-a4aa-cb4c568ffbe6",
+      "url": "https://app.notion.com/p/403878b53f09814ca4aacb4c568ffbe6?pvs=204",
+      "properties": {
+        "title": "Accounts and Company Access"
+      }
+    },
+    {
+      "slug": "catalogue",
+      "branch": 2,
+      "title": "Catalogue and Spatial Navigation",
+      "id": "403878b5-3f09-8178-b841-f682633a7ff4",
+      "url": "https://app.notion.com/p/403878b53f098178b841f682633a7ff4?pvs=204",
+      "properties": {
+        "title": "Catalogue and Spatial Navigation"
+      }
+    },
+    {
+      "slug": "apartments",
+      "branch": 2,
+      "title": "Apartments Finishing and Comparison",
+      "id": "403878b5-3f09-8165-aad5-e75ddc09c8dc",
+      "url": "https://app.notion.com/p/403878b53f098165aad5e75ddc09c8dc?pvs=204",
+      "properties": {
+        "title": "Apartments Finishing and Comparison"
+      }
+    },
+    {
+      "slug": "publication",
+      "branch": 2,
+      "title": "Developer Content and Publication",
+      "id": "403878b5-3f09-81c3-b09b-d274bc47697f",
+      "url": "https://app.notion.com/p/403878b53f0981c3b09bd274bc47697f?pvs=204",
+      "properties": {
+        "title": "Developer Content and Publication"
+      }
+    },
+    {
+      "slug": "selection",
+      "branch": 2,
+      "title": "Buyer AI Selection",
+      "id": "403878b5-3f09-81d4-98de-caf1bad410a6",
+      "url": "https://app.notion.com/p/403878b53f0981d498decaf1bad410a6?pvs=204",
+      "properties": {
+        "title": "Buyer AI Selection"
+      }
+    },
+    {
+      "slug": "regions",
+      "branch": 2,
+      "title": "Image Region Preparation",
+      "id": "403878b5-3f09-81dd-bc69-d6e086c53ddd",
+      "url": "https://app.notion.com/p/403878b53f0981ddbc69d6e086c53ddd?pvs=204",
+      "properties": {
+        "title": "Image Region Preparation"
+      }
+    },
+    {
+      "slug": "enquiries",
+      "branch": 2,
+      "title": "Enquiries and Notifications",
+      "id": "403878b5-3f09-8153-9a31-e5b147fdc7ef",
+      "url": "https://app.notion.com/p/403878b53f0981539a31e5b147fdc7ef?pvs=204",
+      "properties": {
+        "title": "Enquiries and Notifications"
+      }
+    },
+    {
+      "slug": "administration",
+      "branch": 2,
+      "title": "Administration and Audit",
+      "id": "403878b5-3f09-8144-b931-f4905213b654",
+      "url": "https://app.notion.com/p/403878b53f098144b931f4905213b654?pvs=204",
+      "properties": {
+        "title": "Administration and Audit"
+      }
+    },
+    {
+      "slug": "visuals",
+      "branch": 2,
+      "title": "Maps Parking and Visual Assets",
+      "id": "403878b5-3f09-810f-ac00-d2d6be8974e7",
+      "url": "https://app.notion.com/p/403878b53f09810fac00d2d6be8974e7?pvs=204",
+      "properties": {
+        "title": "Maps Parking and Visual Assets"
+      }
+    },
+    {
+      "slug": "architecture",
+      "branch": 3,
+      "title": "System Architecture",
+      "id": "403878b5-3f09-812a-9a6d-f7473cda92f1",
+      "url": "https://app.notion.com/p/403878b53f09812a9a6df7473cda92f1?pvs=204",
+      "properties": {
+        "title": "System Architecture"
+      }
+    },
+    {
+      "slug": "data",
+      "branch": 3,
+      "title": "Domain Model and Data Dictionary",
+      "id": "403878b5-3f09-81f0-882d-f7b060c6c49d",
+      "url": "https://app.notion.com/p/403878b53f0981f0882df7b060c6c49d?pvs=204",
+      "properties": {
+        "title": "Domain Model and Data Dictionary"
+      }
+    },
+    {
+      "slug": "states",
+      "branch": 3,
+      "title": "State Models and Integrity",
+      "id": "403878b5-3f09-8104-b070-d1e61165b18c",
+      "url": "https://app.notion.com/p/403878b53f098104b070d1e61165b18c?pvs=204",
+      "properties": {
+        "title": "State Models and Integrity"
+      }
+    },
+    {
+      "slug": "contracts",
+      "branch": 4,
+      "title": "Application Contracts",
+      "id": "403878b5-3f09-8148-9b7e-dd1245dfc39a",
+      "url": "https://app.notion.com/p/403878b53f0981489b7edd1245dfc39a?pvs=204",
+      "properties": {
+        "title": "Application Contracts"
+      }
+    },
+    {
+      "slug": "jobs",
+      "branch": 4,
+      "title": "Background Jobs and File Lifecycle",
+      "id": "403878b5-3f09-8170-b645-f3aa21bbbe21",
+      "url": "https://app.notion.com/p/403878b53f098170b645f3aa21bbbe21?pvs=204",
+      "properties": {
+        "title": "Background Jobs and File Lifecycle"
+      }
+    },
+    {
+      "slug": "navigation",
+      "branch": 5,
+      "title": "Navigation and Screen Responsibilities",
+      "id": "403878b5-3f09-8121-809c-f48296a2b2fb",
+      "url": "https://app.notion.com/p/403878b53f098121809cf48296a2b2fb?pvs=204",
+      "properties": {
+        "title": "Navigation and Screen Responsibilities"
+      }
+    },
+    {
+      "slug": "languages",
+      "branch": 5,
+      "title": "Language and Content Rules",
+      "id": "403878b5-3f09-817d-b39a-ee68e2ee2bf2",
+      "url": "https://app.notion.com/p/403878b53f09817db39aee68e2ee2bf2?pvs=204",
+      "properties": {
+        "title": "Language and Content Rules"
+      }
+    },
+    {
+      "slug": "requirements",
+      "branch": 6,
+      "title": "Requirements and Acceptance Matrix",
+      "id": "403878b5-3f09-811d-99db-e95340f11efb",
+      "url": "https://app.notion.com/p/403878b53f09811d99dbe95340f11efb?pvs=204",
+      "properties": {
+        "title": "Requirements and Acceptance Matrix"
+      }
+    },
+    {
+      "slug": "verification",
+      "branch": 6,
+      "title": "Verification Scenarios",
+      "id": "403878b5-3f09-81c6-aed3-fdafe07a49a5",
+      "url": "https://app.notion.com/p/403878b53f0981c6aed3fdafe07a49a5?pvs=204",
+      "properties": {
+        "title": "Verification Scenarios"
+      }
+    },
+    {
+      "slug": "delivery",
+      "branch": 7,
+      "title": "Responsibilities and Delivery Workflow",
+      "id": "403878b5-3f09-810d-a0f3-f134c7476afe",
+      "url": "https://app.notion.com/p/403878b53f09810da0f3f134c7476afe?pvs=204",
+      "properties": {
+        "title": "Responsibilities and Delivery Workflow"
+      }
+    },
+    {
+      "slug": "decisions",
+      "branch": 7,
+      "title": "Design Decisions and Risks",
+      "id": "403878b5-3f09-81ff-b2c9-e64ea1f9a0a4",
+      "url": "https://app.notion.com/p/403878b53f0981ffb2c9e64ea1f9a0a4?pvs=204",
+      "properties": {
+        "title": "Design Decisions and Risks"
+      }
+    }
+  ],
+  "functional_ownership": {
+    "accounts": [
+      1,
+      2,
+      3,
+      4,
+      14
+    ],
+    "catalogue": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      12
+    ],
+    "apartments": [
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      22,
+      33
+    ],
+    "publication": [
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "selection": [
+      23,
+      24,
+      25,
+      26
+    ],
+    "regions": [
+      7,
+      8,
+      21,
+      27,
+      28
+    ],
+    "enquiries": [
+      14,
+      30,
+      33,
+      34,
+      35
+    ],
+    "administration": [
+      3,
+      36,
+      37,
+      38,
+      39,
+      40
+    ],
+    "visuals": [
+      29,
+      30,
+      31,
+      32
+    ]
+  }
+}
