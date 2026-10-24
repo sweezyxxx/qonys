@@ -37,3 +37,23 @@ A change identifies affected rules, modules, data relationships, interfaces and 
 Notion holds the current project specification. Git retains versioned artifacts and source. The separate [[defence]] branch retains the milestone report, research, interviews and submission files. Subsequent working-document changes do not silently rewrite that submission snapshot.
 
 [GitHub repository](https://github.com/sweezyxxx/qonys) · [YouTrack workspace](https://qonys.youtrack.cloud/)
+
+## Current stage record — 24 October 2026
+
+[Pull request 1](https://github.com/sweezyxxx/qonys/pull/1) contains the prepared analysis/design package on branch `codex/QON-3-submission-documentation`. It is open and awaits an actual team review before merge. The existing backend initialization remains authored by Yevgeniy; current documentation commits are authored through Temirlan's account.
+
+| Task | Accountable role | Current outcome |
+| --- | --- | --- |
+| [QON-1](https://qonys.youtrack.cloud/issue/QON-1) | Backend | Existing Django scaffold; commit 0b317ef. |
+| [QON-2](https://qonys.youtrack.cloud/issue/QON-2) | Flutter Web | Initialization task exists; Flutter source is not present on the inspected main revision. |
+| [QON-3](https://qonys.youtrack.cloud/issue/QON-3) | Coordination | README, setup and repository workflow in commit ee487bf; PR review pending. |
+| [QON-4](https://qonys.youtrack.cloud/issue/QON-4) | Coordination | Versioned report, research, diagrams, prototype and living specification in commit 5f523a3; PR review pending. |
+| [QON-5](https://qonys.youtrack.cloud/issue/QON-5) | Flutter Web | Actual prototype/workflow review remains open. |
+| [QON-6](https://qonys.youtrack.cloud/issue/QON-6) | Backend | Actual architecture/data/contracts and setup review remains open. |
+| [QON-7](https://qonys.youtrack.cloud/issue/QON-7) | Coordination | Supervisor comments, intended-reader access, reviewed release and stage tag remain open. |
+
+The new stage task descriptions include a 24 October target, outcome, acceptance criteria and initial priority. Backend dependencies installed from the existing lock on Python 3.14.9; Django checks reported no issues and no migration changes. No project business tests exist yet. The documentation check passed 210 checks, the Notion payload builder generated 29 pages, and local prototype interaction/layout checks passed at 320, 736 and 1024 px without screenshots. These results do not establish application or AI acceptance.
+
+No supervisor feedback has been received. The stakeholder deferred invitations for the supervisor and the remaining team member; access remains an explicit submission action. The checklist requires evidence of progressive repository contributions from every member, without specifying a code quota or commit count. Actual design/review findings and corrections can be committed by their author. Current task creation and document uploads do not reconstruct historical progression.
+
+[Versioned delivery evidence](https://github.com/sweezyxxx/qonys/blob/codex/QON-3-submission-documentation/docs/delivery/2026-10-24.md) identifies checks, outstanding reviews and the stage-tag sequence.
