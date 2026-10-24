@@ -702,9 +702,23 @@ The register links technical and delivery risks to concrete mitigation actions a
 
 The project links are the [GitHub repository](https://github.com/sweezyxxx/qonys), [YouTrack workspace](https://qonys.youtrack.cloud/) and [Notion workspace](https://app.notion.com/p/402878b53f0980a9bebafc8ef6d32613). They serve version control, task tracking and project knowledge respectively.
 
-The version-control policy uses the stage tags pre-defense-1, pre-defense-2 and final-pre-defense. Task branches and pull requests link changes to requirements and another team member's review. Each YouTrack task records its assignee, priority, outcome, acceptance criteria and deadline. The submission record identifies the revision, completed work, limitations, outstanding tasks and reviewer access.
+The 24 October submission form requires the tag `prob-period-1` on the exact submitted commit. Later stages use their announced tag conventions. Task branches and pull requests link changes to requirements and another team member's review. Each YouTrack task records its assignee, priority, outcome, acceptance criteria and deadline. The submission record identifies the revision, completed work, limitations, outstanding tasks and reviewer access.
+
+## Recorded stage contributions
+
+| Team member | Completed work | Repository evidence |
+| --- | --- | --- |
+| Temirlan Almukhamedov | Requirements, architecture/data design, report, research synthesis, prototype, living documentation and repository workflow. | QON-3/QON-4; merged [PR 2](https://github.com/sweezyxxx/qonys/pull/2) and [PR 3](https://github.com/sweezyxxx/qonys/pull/3). |
+| Yevgeniy Averyanov | Django backend initialization. | QON-1; [commit 0b317ef](https://github.com/sweezyxxx/qonys/commit/0b317ef7d8cea5df761477b135c0191be7a217ce). |
+| Bexultan Nishanbek | Flutter client initialization, counter screen, widget-test source and web/platform runners. | QON-2; [commit 29e9e1b](https://github.com/sweezyxxx/qonys/commit/29e9e1b), merged [PR 4](https://github.com/sweezyxxx/qonys/pull/4). |
+
+The current code provides application scaffolds. The business workflows and client/backend integration follow the analysis/design baseline. QON-5 and QON-6 track prototype and architecture reviews; QON-7 tracks final submission evidence, access and the tagged revision.
 
 
 # 11 Supervisor feedback
 
-Islam Omirzak is the project supervisor. This report constitutes the analysis and design baseline prepared for his substantive review. Supervisor comments and resulting revisions are not included in this version; they form a separate review record associated with the reviewed report revision.
+Supervisor: Islam Omirzak. Written feedback received on 24 October 2026.
+
+The Qonys project addresses a relevant practical problem by providing a digital service for rental-property discovery and roommate matching. Its principal functions—map-based search, flexible filtering, property cards, and tools for finding suitable co-tenants—form a clear and useful product concept. The availability of the application on mobile platforms also demonstrates progress beyond the conceptual stage.
+
+The key deliverables should include the mobile application, user authentication, property-listing management, map and location services, filtered search, roommate profiles and matching, saved listings, communication facilities, backend services, database design, and supporting technical documentation. The project has a strong practical orientation, but the next stage should provide clearer evidence of functional completeness, data reliability, security, and usability.

@@ -73,7 +73,8 @@ with zipfile.ZipFile(STAGE/'QONYS_analysis_design_2026-10-24.docx') as archive:
     ns = {'w':'http://schemas.openxmlformats.org/wordprocessingml/2006/main'}
     doc_text = '\n'.join(node.text or '' for node in tree.findall('.//w:t', ns))
     check(all(name in doc_text for name in TEAM), 'DOCX contains confirmed team names')
-    check(len(tree.findall('.//w:tbl', ns)) == 28, 'DOCX has the checked 28 tables')
+    checked_report = next(d for d in verification['documents'] if d['file']=='QONYS_analysis_design_2026-10-24.docx')
+    check(len(tree.findall('.//w:tbl', ns)) == checked_report['tables'], 'DOCX table count matches the verified report')
 for name in ['01-system-context','02-use-cases','03-components']:
     for suffix in ['.svg','.png','.json', '.puml' if name=='02-use-cases' else '.mmd']:
         check((STAGE/'diagrams'/(name+suffix)).is_file(), f'Editable/readable diagram: {name+suffix}')

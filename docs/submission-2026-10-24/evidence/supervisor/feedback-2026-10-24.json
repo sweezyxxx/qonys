@@ -1,0 +1,10 @@
+{
+  "supervisor": "Islam Omirzak",
+  "received_on": "2026-10-24",
+  "source": "Written supervisor feedback provided by the team",
+  "review_date": null,
+  "reviewed_revision": null,
+  "original_feedback": "The Qonys project addresses a relevant practical problem by providing a digital service for rental-property discovery and roommate matching. Its principal functions—map-based search, flexible filtering, property cards, and tools for finding suitable co-tenants—form a clear and useful product concept. The availability of the application on mobile platforms also demonstrates progress beyond the conceptual stage.\n\nThe key deliverables should include the mobile application, user authentication, property-listing management, map and location services, filtered search, roommate profiles and matching, saved listings, communication facilities, backend services, database design, and supporting technical documentation. The project has a strong practical orientation, but the next stage should provide clearer evidence of functional completeness, data reliability, security, and usability.",
+  "scope_changed": false,
+  "team_decision": "Retain the supervisor statement verbatim as a received review record. The approved title, product scope, requirements and implementation plan remain unchanged."
+}

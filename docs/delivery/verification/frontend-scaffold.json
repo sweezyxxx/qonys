@@ -1,0 +1,21 @@
+{
+  "checked_at_utc": "2026-10-24T10:16:18.054977+00:00",
+  "task": "QON-2",
+  "contributor": "Bexultan Nishanbek",
+  "github_account": "RealCart",
+  "commit": "29e9e1b",
+  "pull_request": "https://github.com/sweezyxxx/qonys/pull/4",
+  "merged_commit": "7826acf5c1b01c977b003df46797e480baa1f556",
+  "content": "Flutter initialization with a standard counter example, widget smoke test and web/platform runner files.",
+  "required_dart": "^3.13.5",
+  "local_flutter": "3.44.2",
+  "local_dart": "3.12.2",
+  "dependency_resolution": {
+    "command": "flutter pub get",
+    "result": "Failed: local Dart 3.12.2 does not satisfy ^3.13.5."
+  },
+  "analysis": "Not run after dependency resolution failed.",
+  "widget_test": "Present in source; not executed with a compatible SDK in this check.",
+  "web_build": "Not run after dependency resolution failed.",
+  "business_functionality_verified": false
+}

@@ -1,5 +1,5 @@
 {
-  "verified_at_utc": "2026-10-24T05:55:43.829768+00:00",
+  "verified_at_utc": "2026-10-24T10:27:08.120298+00:00",
   "report_sections": 11,
   "contents_pages": {
     "1": 3,
@@ -22,14 +22,14 @@
   "documents": [
     {
       "file": "QONYS_analysis_design_2026-10-24.docx",
-      "sha256": "9d16ede55f66d14bc045a1ecf03be1f57b823874524b1e726400efe8326ee8cc",
+      "sha256": "0e035ca99041af3ee8ebbae4888c93c2347dd5a83a7b76469d96a87c0d3c45cc",
       "pages": 46,
-      "paragraphs": 301,
-      "tables": 28,
+      "paragraphs": 306,
+      "tables": 29,
       "figures": 6,
       "verification_mode": "DOCX/XML and PDF text and coordinate checks, per stakeholder instruction.",
       "page_image_review_performed_for_this_revision": false,
-      "text_export_directory": "work/submission-text-check/full-review-r4",
+      "text_export_directory": "work/feedback-text-export",
       "checks": [
         "All eleven sections reviewed",
         "Interview source and quote fidelity",
@@ -47,7 +47,7 @@
         "PDF text bounds"
       ],
       "accessibility_audit": {
-        "file": "docs\\submission-2026-10-24\\QONYS_analysis_design_2026-10-24.docx",
+        "file": "work\\repository\\qonys\\docs\\submission-2026-10-24\\QONYS_analysis_design_2026-10-24.docx",
         "counts": {
           "high": 0,
           "medium": 0,

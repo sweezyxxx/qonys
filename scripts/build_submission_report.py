@@ -107,7 +107,7 @@ for number, body in enumerate(sections, 1):
     full += body + '\n\n'
     for label, path in figure_blocks.get(number, []):
         full += f'![{label}]({path})\n\n'
-(BASE / 'QONYS_analysis_design_2026-10-24.md').write_text(full, encoding='utf-8')
+(BASE / 'QONYS_analysis_design_2026-10-24.md').write_text(full.rstrip()+'\n', encoding='utf-8')
 
 doc = Document()
 normal = doc.styles['Normal']
