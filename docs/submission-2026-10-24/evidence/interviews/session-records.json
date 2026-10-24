@@ -1,0 +1,30 @@
+{
+  "source": "source-transcript.md",
+  "sessions": [
+    {
+      "code": "D1",
+      "reported_context": "Self-described sales manager at an Astana development company; almost two years in the role.",
+      "date": null,
+      "interviewer": "Yevgeniy Averyanov",
+      "recording_reference": null,
+      "note_permission": "Verbal agreement to note-taking appears in the opening exchange."
+    },
+    {
+      "code": "B1",
+      "reported_context": "Self-described first-time owner-occupier prospect, student and part-time worker, considering a purchase in one or two years.",
+      "date": null,
+      "interviewer": "Bexultan Nishanbek",
+      "recording_reference": null,
+      "note_permission": "Verbal agreement to note-taking appears in the opening exchange."
+    },
+    {
+      "code": "B2",
+      "reported_context": "Self-described employed buyer considering a small apartment for rental use.",
+      "date": null,
+      "interviewer": "Temirlan Almukhamedov",
+      "recording_reference": null,
+      "note_permission": "Verbal agreement to note-taking appears in the opening exchange."
+    }
+  ],
+  "interviewer_source": "Team clarification in the project conversation."
+}

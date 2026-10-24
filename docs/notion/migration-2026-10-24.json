@@ -1,0 +1,287 @@
+{
+  "completed_at_utc": "2026-10-24T06:16:54.838Z",
+  "root": {
+    "id": "402878b5-3f09-80a9-beba-fc8ef6d32613",
+    "url": "https://app.notion.com/p/402878b53f0980a9bebafc8ef6d32613",
+    "title": "QONYS"
+  },
+  "created_pages": [
+    {
+      "id": "403878b5-3f09-8138-be49-d2c54aab21ca",
+      "url": "https://app.notion.com/p/403878b53f098138be49d2c54aab21ca?pvs=204",
+      "properties": {
+        "title": "01 Project Proposal"
+      }
+    },
+    {
+      "id": "403878b5-3f09-8176-8232-e9815551c611",
+      "url": "https://app.notion.com/p/403878b53f0981768232e9815551c611?pvs=204",
+      "properties": {
+        "title": "02 Evidence of Relevance"
+      }
+    },
+    {
+      "id": "403878b5-3f09-81d3-9d39-e800890e7b20",
+      "url": "https://app.notion.com/p/403878b53f0981d39d39e800890e7b20?pvs=204",
+      "properties": {
+        "title": "03 Literature Review"
+      }
+    },
+    {
+      "id": "403878b5-3f09-81b1-b10f-ea87b42881bd",
+      "url": "https://app.notion.com/p/403878b53f0981b1b10fea87b42881bd?pvs=204",
+      "properties": {
+        "title": "04 Existing System Comparison"
+      }
+    },
+    {
+      "id": "403878b5-3f09-81ed-bf48-eedb9cc4041f",
+      "url": "https://app.notion.com/p/403878b53f0981edbf48eedb9cc4041f?pvs=204",
+      "properties": {
+        "title": "05 Technology Comparison"
+      }
+    },
+    {
+      "id": "403878b5-3f09-81f3-86c3-ce3c52fb8aba",
+      "url": "https://app.notion.com/p/403878b53f0981f386c3ce3c52fb8aba?pvs=204",
+      "properties": {
+        "title": "06 Requirements Specification"
+      }
+    },
+    {
+      "id": "403878b5-3f09-8111-9f86-fd12f7c39317",
+      "url": "https://app.notion.com/p/403878b53f0981119f86fd12f7c39317?pvs=204",
+      "properties": {
+        "title": "07 Architecture and Diagrams"
+      }
+    },
+    {
+      "id": "403878b5-3f09-819c-bb6a-e701e9095275",
+      "url": "https://app.notion.com/p/403878b53f09819cbb6ae701e9095275?pvs=204",
+      "properties": {
+        "title": "08 UX and Prototype"
+      }
+    },
+    {
+      "id": "403878b5-3f09-817c-bcd0-e38df0b79ba7",
+      "url": "https://app.notion.com/p/403878b53f09817cbcd0e38df0b79ba7?pvs=204",
+      "properties": {
+        "title": "09 Verification and Evaluation Plan"
+      }
+    },
+    {
+      "id": "403878b5-3f09-8111-a890-fa7f28bc54f5",
+      "url": "https://app.notion.com/p/403878b53f098111a890fa7f28bc54f5?pvs=204",
+      "properties": {
+        "title": "10 Project Management and Risks"
+      }
+    },
+    {
+      "id": "403878b5-3f09-8141-b165-f037b9e8debb",
+      "url": "https://app.notion.com/p/403878b53f098141b165f037b9e8debb?pvs=204",
+      "properties": {
+        "title": "11 Supervisor Feedback"
+      }
+    },
+    {
+      "id": "403878b5-3f09-8120-9162-dee8fdd65215",
+      "url": "https://app.notion.com/p/403878b53f0981209162dee8fdd65215?pvs=204",
+      "properties": {
+        "title": "12 Product Workflows and Navigation"
+      }
+    },
+    {
+      "id": "403878b5-3f09-8157-a36c-c8a51b54369a",
+      "url": "https://app.notion.com/p/403878b53f098157a36cc8a51b54369a?pvs=204",
+      "properties": {
+        "title": "13 Current Design Decisions"
+      }
+    },
+    {
+      "id": "403878b5-3f09-8109-a17c-dd83c94d13f8",
+      "url": "https://app.notion.com/p/403878b53f098109a17cdd83c94d13f8?pvs=204",
+      "properties": {
+        "title": "14 Interview Evidence"
+      }
+    },
+    {
+      "id": "403878b5-3f09-814b-a738-de798f32e0a3",
+      "url": "https://app.notion.com/p/403878b53f09814ba738de798f32e0a3?pvs=204",
+      "properties": {
+        "title": "15 Project Files"
+      }
+    },
+    {
+      "id": "403878b5-3f09-81ae-91e4-f9464b02abc1",
+      "url": "https://app.notion.com/p/403878b53f0981ae91e4f9464b02abc1?pvs=204",
+      "properties": {
+        "title": "D1 Developer Interview Transcript"
+      }
+    },
+    {
+      "id": "403878b5-3f09-81b6-9043-f334d17de65d",
+      "url": "https://app.notion.com/p/403878b53f0981b69043f334d17de65d?pvs=204",
+      "properties": {
+        "title": "B1 Buyer Interview Transcript"
+      }
+    },
+    {
+      "id": "403878b5-3f09-81e6-90a1-f8016f40676e",
+      "url": "https://app.notion.com/p/403878b53f0981e690a1f8016f40676e?pvs=204",
+      "properties": {
+        "title": "B2 Buyer Interview Transcript"
+      }
+    }
+  ],
+  "deleted_top_pages": [
+    {
+      "url": "https://app.notion.com/p/402878b53f09810ab1b9fb2984dbe00c",
+      "title": "01 Продукт и сценарии"
+    },
+    {
+      "url": "https://app.notion.com/p/402878b53f0981b08759d858c8aadcd5",
+      "title": "02 Архитектура и данные"
+    },
+    {
+      "url": "https://app.notion.com/p/402878b53f098101b1b9fac04b784467",
+      "title": "03 Модули системы"
+    },
+    {
+      "url": "https://app.notion.com/p/402878b53f0981bc9334c4d9de7c4220",
+      "title": "04 Контракты и фоновые процессы"
+    },
+    {
+      "url": "https://app.notion.com/p/402878b53f0981d094c6f399c44a22a9",
+      "title": "05 Качество и эксплуатация"
+    },
+    {
+      "url": "https://app.notion.com/p/402878b53f0981009d2fc0ce3139fddb",
+      "title": "06 Решения и план проекта"
+    }
+  ],
+  "deleted_descendant_pages": [
+    {
+      "type": "page",
+      "url": "https://app.notion.com/p/402878b53f09814aa524de866283738d",
+      "title": "Страницы и навигация"
+    },
+    {
+      "type": "page",
+      "url": "https://app.notion.com/p/402878b53f098183a9b1c2bc97126f3a",
+      "title": "Роли и сквозные сценарии"
+    },
+    {
+      "type": "page",
+      "url": "https://app.notion.com/p/402878b53f09810c9a55e8cc22cdae7c",
+      "title": "Требования и критерии приемки"
+    },
+    {
+      "type": "page",
+      "url": "https://app.notion.com/p/402878b53f0981b7acf6d63d695c5a89",
+      "title": "Модель данных и инварианты"
+    },
+    {
+      "type": "page",
+      "url": "https://app.notion.com/p/402878b53f09819fa12eed18031417e9",
+      "title": "Контекст Use Case и компоненты"
+    },
+    {
+      "type": "page",
+      "url": "https://app.notion.com/p/402878b53f09819f9961ee92a4591bc5",
+      "title": "ER-диаграммы и связи сущностей"
+    },
+    {
+      "type": "page",
+      "url": "https://app.notion.com/p/402878b53f098121b3edfe6f8dafa63f",
+      "title": "Аккаунты и одобрение компаний"
+    },
+    {
+      "type": "page",
+      "url": "https://app.notion.com/p/402878b53f098147aec0d0ffe62bb6f7",
+      "title": "Каталог и выбор квартиры"
+    },
+    {
+      "type": "page",
+      "url": "https://app.notion.com/p/402878b53f0981379d61ce89f522bc43",
+      "title": "Материалы редактор и публикация"
+    },
+    {
+      "type": "page",
+      "url": "https://app.notion.com/p/402878b53f09813ba3b1fef9a80667d2",
+      "title": "Бот застройщика и подготовка ИИ"
+    },
+    {
+      "type": "page",
+      "url": "https://app.notion.com/p/402878b53f098124bff8ca400c2fd9b2",
+      "title": "Покупатель избранное и дизайн"
+    },
+    {
+      "type": "page",
+      "url": "https://app.notion.com/p/402878b53f0981e69b67c4a92d3be2af",
+      "title": "Паркинг и обращения менеджеру"
+    },
+    {
+      "type": "page",
+      "url": "https://app.notion.com/p/402878b53f0981bb9994d5de6c0ff702",
+      "title": "API операции ошибки и примеры"
+    },
+    {
+      "type": "page",
+      "url": "https://app.notion.com/p/402878b53f09816d91eaeedf12391727",
+      "title": "Celery RabbitMQ и жизненный цикл задач"
+    },
+    {
+      "type": "page",
+      "url": "https://app.notion.com/p/402878b53f0981c78896c78678cfd399",
+      "title": "Единый профиль файлов и 3D"
+    },
+    {
+      "type": "page",
+      "url": "https://app.notion.com/p/402878b53f0981cc8915c030907b127f",
+      "title": "Права изоляция и безопасность ИИ"
+    },
+    {
+      "type": "page",
+      "url": "https://app.notion.com/p/402878b53f09810b8865ee0b978f3fc3",
+      "title": "Приемка тестирование и оценка"
+    },
+    {
+      "type": "page",
+      "url": "https://app.notion.com/p/402878b53f098152bee7dbd92c3aa89f",
+      "title": "Окружения запуск и наблюдаемость"
+    },
+    {
+      "type": "page",
+      "url": "https://app.notion.com/p/402878b53f0981bcb58dca96f90d48de",
+      "title": "Архитектурные решения ADR"
+    },
+    {
+      "type": "page",
+      "url": "https://app.notion.com/p/402878b53f098182b2cde28e4c5df9b5",
+      "title": "Открытые вопросы и границы реализации"
+    },
+    {
+      "type": "page",
+      "url": "https://app.notion.com/p/402878b53f0981208cc9ffb4f4e98ca2",
+      "title": "План команды риски и готовность"
+    },
+    {
+      "type": "page",
+      "url": "https://app.notion.com/p/402878b53f09819e9b7ad2a61f25b3d9",
+      "title": "Как читать поддерживать и использовать документацию"
+    }
+  ],
+  "native_pages": 18,
+  "uploaded_assets": 16,
+  "checks": {
+    "root_children": 15,
+    "requirements": 50,
+    "transcript_turns": 280,
+    "diagram_images": 3,
+    "prototype_screens": 9,
+    "prototype_embeds": 1,
+    "file_attachments": 3,
+    "broken_local_links": 0,
+    "old_content_links": 0
+  }
+}

@@ -1,0 +1,245 @@
+{
+  "source_sha256": "d95a52ca62371846522031612092133edfbac36d4c9adc54a2cf9d6ff98bf211",
+  "findings": [
+    {
+      "id": "F01",
+      "title": "Current prices and availability",
+      "reported_experience": "D1 describes a delay between sales-stock updates and the website. Both buyers describe calling about a unit that was already unavailable or reserved.",
+      "source_turns": [
+        "D1-T020",
+        "D1-T022",
+        "B1-T036",
+        "B1-T038",
+        "B2-T032"
+      ],
+      "design_interpretation": "The design retains one physical availability state, immediate valid updates and a current-state check before accepting an enquiry.",
+      "requirement_ids": [
+        "FR-11",
+        "FR-12",
+        "FR-20",
+        "FR-33"
+      ]
+    },
+    {
+      "id": "F02",
+      "title": "Finishing and the full offered price",
+      "reported_experience": "All three accounts describe confusion about finishing labels or what the advertised price includes. B2 compares finishing cost and preparation effort for rental use.",
+      "source_turns": [
+        "D1-T040",
+        "D1-T046",
+        "B1-T042",
+        "B1-T044",
+        "B2-T034",
+        "B2-T036",
+        "B2-T056"
+      ],
+      "design_interpretation": "Apartment details show the developer-defined base condition, a plain description and the full price of each optional offer. Comparison and enquiries retain the selected offer.",
+      "requirement_ids": [
+        "FR-10",
+        "FR-13",
+        "FR-33"
+      ]
+    },
+    {
+      "id": "F03",
+      "title": "A stable comparison of specific apartments",
+      "reported_experience": "B1 uses WhatsApp, screenshots and notes; B2 uses browser tabs, screenshots and Telegram. Both lose track of the selected offers and prioritise direct comparison.",
+      "source_turns": [
+        "B1-T028",
+        "B1-T030",
+        "B1-T034",
+        "B1-T096",
+        "B2-T024",
+        "B2-T028",
+        "B2-T076"
+      ],
+      "design_interpretation": "Comparison retains each physical apartment, its development, price, floor, layout and selected finishing, including through guest sign-in.",
+      "requirement_ids": [
+        "FR-09",
+        "FR-13"
+      ]
+    },
+    {
+      "id": "F04",
+      "title": "Apartment position and surroundings",
+      "reported_experience": "Both buyers describe plans that show rooms without explaining the unit position. They consider window orientation, road noise and nearby transport; B2 also considers universities and business areas.",
+      "source_turns": [
+        "B1-T020",
+        "B1-T046",
+        "B1-T048",
+        "B2-T014",
+        "B2-T038",
+        "B2-T040",
+        "B2-T064"
+      ],
+      "design_interpretation": "Linked building, floor and apartment views provide orientation, location and saved infrastructure context.",
+      "requirement_ids": [
+        "FR-07",
+        "FR-08",
+        "FR-29"
+      ]
+    },
+    {
+      "id": "F05",
+      "title": "An enquiry with the selected apartment context",
+      "reported_experience": "D1 sometimes receives only a phone number and must rediscover the selected unit. Both buyers prefer an enquiry about a particular apartment and describe unwanted follow-up calls.",
+      "source_turns": [
+        "D1-T060",
+        "D1-T062",
+        "D1-T064",
+        "B1-T060",
+        "B1-T062",
+        "B2-T048",
+        "B2-T050"
+      ],
+      "design_interpretation": "The enquiry retains unit, finishing and submitted-price context in the owning inbox and buyer history, with processing status. Written replies remain outside the current baseline.",
+      "requirement_ids": [
+        "FR-14",
+        "FR-33",
+        "FR-34",
+        "FR-35"
+      ]
+    },
+    {
+      "id": "F06",
+      "title": "Gradual preparation and simple updates",
+      "reported_experience": "D1 reports that stock, plans and marketing images arrive separately, requests private drafting and wants to know when edits become public.",
+      "source_turns": [
+        "D1-T014",
+        "D1-T030",
+        "D1-T032",
+        "D1-T034",
+        "D1-T036",
+        "D1-T076"
+      ],
+      "design_interpretation": "The publication workflow combines section-by-section private saving, a complete first-publication check and immediate valid updates afterwards.",
+      "requirement_ids": [
+        "FR-15",
+        "FR-16",
+        "FR-19",
+        "FR-20"
+      ]
+    },
+    {
+      "id": "F07",
+      "title": "Reviewed image-to-record links",
+      "reported_experience": "D1 describes separate architectural/design files and the risk of opening the wrong apartment. The participant coordinates sales information and does not personally prepare the image regions.",
+      "source_turns": [
+        "D1-T016",
+        "D1-T048",
+        "D1-T052",
+        "D1-T054",
+        "D1-T056",
+        "D1-T072"
+      ],
+      "design_interpretation": "Publication requires developer correction and explicit record assignment. Region quality and editing effort have separate evaluation criteria.",
+      "requirement_ids": [
+        "FR-07",
+        "FR-08",
+        "FR-27",
+        "FR-28",
+        "NFR-02"
+      ]
+    },
+    {
+      "id": "F08",
+      "title": "Explainable recommendations that buyers can check",
+      "reported_experience": "Both buyers would try natural-language search but would inspect the price, location and plan themselves. B2 asks for reasons behind an investment-related suggestion.",
+      "source_turns": [
+        "B1-T088",
+        "B1-T090",
+        "B1-T092",
+        "B1-T094",
+        "B2-T070",
+        "B2-T072",
+        "B2-T074",
+        "B2-T076"
+      ],
+      "design_interpretation": "Explanations use catalogue facts, backend checks enforce hard constraints, and condition changes require buyer confirmation. Rental-return prediction is outside the current baseline.",
+      "requirement_ids": [
+        "FR-23",
+        "FR-24",
+        "FR-25"
+      ]
+    }
+  ],
+  "quotes": [
+    {
+      "turn_id": "D1-T014",
+      "quote": "Prices are in one file, plans are in another folder, and pictures are somewhere else."
+    },
+    {
+      "turn_id": "B1-T030",
+      "quote": "I had a lot of screenshots, and I didn't remember which apartment was from which developer."
+    },
+    {
+      "turn_id": "B2-T076",
+      "quote": "Show me why you think it's good."
+    }
+  ],
+  "additional_requests": [
+    {
+      "id": "IP-01",
+      "request": "Spreadsheet import",
+      "source_turns": [
+        "D1-T070",
+        "D1-T078"
+      ],
+      "reported_need": "D1 requests Excel-based upload and objects to entering a large stock manually.",
+      "scope_assessment": "Bulk editing already exists in FR-22. Import needs a separate decision on template, validation, duplicates and partial errors.",
+      "baseline_changed": false
+    },
+    {
+      "id": "IP-02",
+      "request": "Visible price-update date",
+      "source_turns": [
+        "B2-T066"
+      ],
+      "reported_need": "B2 asks to see when a price was updated.",
+      "scope_assessment": "Current-state rechecking remains mandatory. A public timestamp is a separate presentation enhancement and does not guarantee freshness by itself.",
+      "baseline_changed": false
+    },
+    {
+      "id": "IP-03",
+      "request": "Guest saved shortlist",
+      "source_turns": [
+        "B1-T084"
+      ],
+      "reported_need": "B1 asks to save apartments without creating an account immediately.",
+      "scope_assessment": "Keep guest comparison in FR-02/13 and verified sign-in for favourites in FR-02/14. Guest favourites would change the approved access rule.",
+      "baseline_changed": false
+    },
+    {
+      "id": "IP-04",
+      "request": "Written response or contact preference",
+      "source_turns": [
+        "B1-T062",
+        "B2-T050"
+      ],
+      "reported_need": "Both buyers prefer a question and answer about the selected apartment over unrelated sales calls.",
+      "scope_assessment": "The current enquiry includes a comment, contact data and status history. In-account replies or a preferred response channel need a separate workflow decision.",
+      "baseline_changed": false
+    },
+    {
+      "id": "IP-05",
+      "request": "Price per square metre in comparison",
+      "source_turns": [
+        "B2-T028"
+      ],
+      "reported_need": "B2 suggests this as an additional comparison value.",
+      "scope_assessment": "Consider a derived price/area metric alongside the approved full price; it must not replace finishing and total-cost information.",
+      "baseline_changed": false
+    },
+    {
+      "id": "IP-06",
+      "request": "Rental-market comparisons",
+      "source_turns": [
+        "B2-T020",
+        "B2-T074"
+      ],
+      "reported_need": "B2 wants to compare spending with potential rental income and similar local rents.",
+      "scope_assessment": "Treat rental use as buyer context. Rental-income estimates need an additional data source, method and scope decision; no yield claim follows from this transcript.",
+      "baseline_changed": false
+    }
+  ]
+}

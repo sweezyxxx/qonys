@@ -1,0 +1,40 @@
+@startuml
+left to right direction
+actor "Buyer / visitor" as B
+actor "Property developer" as D
+actor "Platform administrator" as A
+rectangle "QONYS" {
+  usecase "UC-01 Browse and inspect catalogue/property" as U1
+  usecase "UC-02 Select with AI" as U2
+  usecase "UC-03 Compare apartments" as U3
+  usecase "UC-04 Manage favourites and own enquiry history" as U4
+  usecase "UC-05 Submit an enquiry" as U5
+  usecase "UC-06 Prepare private development content" as U6
+  usecase "UC-07 Review and link floor / apartment regions" as U7
+  usecase "UC-08 Maintain apartments and finishing" as U8
+  usecase "UC-09 Publish a complete development and save updates" as U9
+  usecase "UC-10 Handle enquiries and archive" as U10
+  usecase "UC-11 Manage developer access" as U11
+  usecase "UC-12 Moderate development visibility" as U12
+  usecase "UC-13 Manage city and finishing reference data" as U13
+  usecase "UC-14 View platform overview" as U14
+  usecase "UC-15 Inspect audit history" as U15
+}
+B -- U1
+B -- U2
+B -- U3
+B -- U4
+B -- U5
+D -- U6
+D -- U7
+D -- U8
+D -- U9
+D -- U10
+A -- U11
+A -- U12
+A -- U13
+A -- U14
+A -- U15
+note bottom of U4 : Verified buyer only
+note bottom of U5 : Verified buyer; current availability, finishing and price
+@enduml

@@ -1,0 +1,26 @@
+{
+  "scope": "Local HTML design prototype only",
+  "inspectedAt": "2026-10-24T07:08:48.114Z",
+  "screenshotCount": 0,
+  "widths": [
+    320,
+    736,
+    1024
+  ],
+  "checks": [
+    "finishing selection",
+    "guest enquiry gate",
+    "comparison retained on sign-in",
+    "enquiry context",
+    "region correction/review",
+    "publication blocker and completion",
+    "inbox status",
+    "moderation reason",
+    "hidden catalogue/direct content",
+    "company restoration preserves restriction",
+    "development restoration",
+    "responsive width"
+  ],
+  "browserErrors": [],
+  "outcome": "Passed"
+}

@@ -1,0 +1,8 @@
+* text=auto eol=lf
+*.docx -text
+*.png -text
+*.jpg -text
+*.jpeg -text
+*.zip -text
+# Preserve the supplied interview evidence hash across platforms.
+docs/submission-2026-10-24/evidence/interviews/source-transcript.md -text whitespace=cr-at-eol,-blank-at-eof
