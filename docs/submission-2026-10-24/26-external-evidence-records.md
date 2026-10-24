@@ -59,5 +59,8 @@ The findings describe the experiences and concept feedback of these three partic
 
 ## Supervisor feedback
 
+Supervisor: Islam Omirzak. Written feedback received on 24 October 2026.
 
-Islam Omirzak is the project supervisor. This report constitutes the analysis and design baseline prepared for his substantive review. Supervisor comments and resulting revisions are not included in this version; they form a separate review record associated with the reviewed report revision.
+The Qonys project addresses a relevant practical problem by providing a digital service for rental-property discovery and roommate matching. Its principal functions—map-based search, flexible filtering, property cards, and tools for finding suitable co-tenants—form a clear and useful product concept. The availability of the application on mobile platforms also demonstrates progress beyond the conceptual stage.
+
+The key deliverables should include the mobile application, user authentication, property-listing management, map and location services, filtered search, roommate profiles and matching, saved listings, communication facilities, backend services, database design, and supporting technical documentation. The project has a strong practical orientation, but the next stage should provide clearer evidence of functional completeness, data reliability, security, and usability.

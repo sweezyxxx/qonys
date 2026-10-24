@@ -56,7 +56,7 @@ These outcomes define the implementation target. The current analysis/design del
 
 The analysis/design package contains the English report, three supplied interview transcripts with traceable findings, literature and system/technology comparisons, editable architecture diagrams, and an interactive HTML design prototype with nine screen exports. The working Notion specification has seven sections and 22 topic pages.
 
-The existing backend is a Django project scaffold from [QON-1](https://qonys.youtrack.cloud/issue/QON-1). It currently uses SQLite and console email with the default Django applications and admin route. Business models, the API, buyer/developer account flows, SMTP, workers and AI integrations are planned. Flutter Web initialization is tracked in [QON-2](https://qonys.youtrack.cloud/issue/QON-2); no Flutter application is included in this revision. Prototype interactions use fictional local data and a scripted assistant.
+The existing backend is a Django project scaffold from [QON-1](https://qonys.youtrack.cloud/issue/QON-1). It currently uses SQLite and console email with the default Django applications and admin route. Business models, the API, buyer/developer account flows, SMTP, workers and AI integrations are planned. Bexultan Nishanbek ([RealCart](https://github.com/RealCart)) completed [QON-2](https://qonys.youtrack.cloud/issue/QON-2): the Flutter application scaffold in `qonys_app/` was merged through [PR 4](https://github.com/sweezyxxx/qonys/pull/4). It contains the standard counter screen, a widget smoke test and web/platform runner files. The buyer/developer screens and backend integration are the next implementation work. Prototype interactions use fictional local data and a scripted assistant.
 
 The 24 October stage requires analysis, design and key-scenario mockups. A complete application is not a stated minimum for this stage. Actual review and access requirements are tracked in the [delivery record](docs/delivery/2026-10-24.md).
 
@@ -68,6 +68,7 @@ The target is Flutter Web with a modular Django/DRF backend and PostgreSQL, Cele
 
 ```text
 backend/                      Existing Django scaffold and setup instructions
+qonys_app/                    Flutter scaffold, widget test and web runner
 docs/notion/project/          Living English specification sources and page manifest
 docs/submission-2026-10-24/    Dated report, research and interview evidence
   diagrams/                   Editable diagram sources and readable exports
@@ -83,7 +84,8 @@ tests/                        Verification entry points and planned application 
 ### Prerequisites and repository setup
 
 - Git and a GitHub account with access to this private repository.
-- A modern browser for the local prototype.
+- A modern browser for the local prototype and Flutter Web.
+- Flutter with a bundled Dart SDK satisfying `^3.13.5`, as declared in `qonys_app/pubspec.yaml`. Check `flutter --version` before resolving client dependencies.
 - [uv](https://docs.astral.sh/uv/getting-started/installation/) for the backend; its project requires Python 3.14 or later, which uv can obtain as a managed interpreter.
 - Python 3.12 or later for the standalone documentation-check commands below.
 
@@ -121,6 +123,18 @@ uv run python manage.py runserver 127.0.0.1:8000
 
 The existing route is `http://127.0.0.1:8000/admin/`; the scaffold does not yet serve the buyer/developer application. [Backend setup](backend/README.md) explains local admin-user creation and additional details. Stop the server with Ctrl+C.
 
+### Flutter Web scaffold
+
+From the repository root, using a compatible Flutter/Dart SDK:
+
+```console
+cd qonys_app
+flutter pub get
+flutter run -d chrome
+```
+
+The current screen is the initialization counter example. [Client setup and checks](qonys_app/README.md) describes its contents. The local documentation check used Flutter 3.44.2 with Dart 3.12.2; `flutter pub get` stopped because this Dart version does not satisfy the declared constraint. Client analysis, tests and a web build must be run with a compatible SDK; see the [recorded result](docs/delivery/verification/frontend-scaffold.json).
+
 ### Verification commands
 
 From `backend/`:
@@ -133,7 +147,17 @@ uv run python manage.py test
 
 The first two commands check Django configuration and migration consistency. The current scaffold has no project-specific business tests; a zero-test run does not establish application acceptance. The [evaluation plan](docs/submission-2026-10-24/17-evaluation-plan.md) defines the planned workflow and multilingual selection checks.
 
-Return to the repository root (`cd ..` if you are in `backend/`) and check the documentation bundle without installing application dependencies:
+From `qonys_app/`, after successful dependency resolution:
+
+```console
+flutter analyze
+flutter test
+flutter build web
+```
+
+The existing widget test covers the counter example. Application workflow acceptance follows the implemented business features.
+
+Return to the repository root (`cd ..` if you are in `backend/` or `qonys_app/`) and check the documentation bundle without installing application dependencies:
 
 ```console
 python scripts/check_documentation.py

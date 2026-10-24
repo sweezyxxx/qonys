@@ -28,7 +28,7 @@ The implementation sequence follows dependencies: data/access foundation → buy
 
 YouTrack is the task system. Each meaningful task identifies one accountable assignee, priority, expected outcome, requirement IDs, acceptance criteria and deadline. A change links back to its real task; the task links to the resulting commit or pull request and verification evidence.
 
-Each member uses their own Git identity. Task branches and pull requests preserve review before merging to the shared main baseline. The stage tags pre-defense-1, pre-defense-2 and final-pre-defense identify the exact submitted revisions. Created documents, planned tasks and implementation completion are recorded according to the evidence available.
+Each member uses their own Git identity. Task branches and pull requests preserve review before merging to the shared main baseline. The 24 October 2026 form requires the tag `prob-period-1` on the exact submitted revision; later stages use their announced tags. Created documents, planned tasks and implementation completion are recorded according to the evidence available.
 
 ## Change and completion policy
 
@@ -40,20 +40,22 @@ Notion holds the current project specification. Git retains versioned artifacts 
 
 ## Current stage record — 24 October 2026
 
-[Pull request 2](https://github.com/sweezyxxx/qonys/pull/2) contains the prepared analysis/design package on branch `QON-3-submission-documentation`. It is open and awaits an actual team review before merge. The existing backend initialization remains authored by Yevgeniy; current documentation commits are authored through Temirlan's account.
+The analysis/design package and completed README were merged through [PR 2](https://github.com/sweezyxxx/qonys/pull/2) and [PR 3](https://github.com/sweezyxxx/qonys/pull/3). Bexultan's Flutter initialization was merged through [PR 4](https://github.com/sweezyxxx/qonys/pull/4). All three members now have identifiable repository contributions.
 
-| Task | Accountable role | Current outcome |
+| Task | Owner | Current outcome |
 | --- | --- | --- |
-| [QON-1](https://qonys.youtrack.cloud/issue/QON-1) | Backend | Existing Django scaffold; commit 0b317ef. |
-| [QON-2](https://qonys.youtrack.cloud/issue/QON-2) | Flutter Web | Initialization task exists; Flutter source is not present on the inspected main revision. |
-| [QON-3](https://qonys.youtrack.cloud/issue/QON-3) | Coordination | README, setup and repository workflow in commit ee487bf; PR review pending. |
-| [QON-4](https://qonys.youtrack.cloud/issue/QON-4) | Coordination | Versioned report, research, diagrams, prototype and living specification in commit 5f523a3; PR review pending. |
-| [QON-5](https://qonys.youtrack.cloud/issue/QON-5) | Flutter Web | Actual prototype/workflow review remains open. |
-| [QON-6](https://qonys.youtrack.cloud/issue/QON-6) | Backend | Actual architecture/data/contracts and setup review remains open. |
-| [QON-7](https://qonys.youtrack.cloud/issue/QON-7) | Coordination | Supervisor comments, intended-reader access, reviewed release and stage tag remain open. |
+| [QON-1](https://qonys.youtrack.cloud/issue/QON-1) | Yevgeniy | Django scaffold, commit 0b317ef. |
+| [QON-2](https://qonys.youtrack.cloud/issue/QON-2) | Bexultan | Flutter counter scaffold, widget-test source and runners, commit 29e9e1b and merged PR 4. |
+| [QON-3](https://qonys.youtrack.cloud/issue/QON-3) | Temirlan | README and repository workflow, merged PRs 2 and 3. |
+| [QON-4](https://qonys.youtrack.cloud/issue/QON-4) | Temirlan | Versioned report, diagrams, research, prototype and living specification, merged PR 2. |
+| [QON-5](https://qonys.youtrack.cloud/issue/QON-5) | Bexultan | Actual prototype/workflow review remains open. |
+| [QON-6](https://qonys.youtrack.cloud/issue/QON-6) | Yevgeniy | Actual architecture/data/contracts and setup review remains open. |
+| [QON-7](https://qonys.youtrack.cloud/issue/QON-7) | Temirlan | Supervisor statement recorded; reviewer access, final reviewed update, screenshots and submission tag remain. |
 
-The new stage task descriptions include a 24 October target, outcome, acceptance criteria and initial priority. Backend dependencies installed from the existing lock on Python 3.14.9; Django checks reported no issues and no migration changes. No project business tests exist yet. The documentation check passed 210 checks, the Notion payload builder generated 29 pages, and local prototype interaction/layout checks passed at 320, 736 and 1024 px without screenshots. These results do not establish application or AI acceptance.
+Islam Omirzak's written feedback was received on 24 October and is retained verbatim in [section 11 of the milestone report](https://app.notion.com/p/403878b53f098141b165f037b9e8debb). The approved scope and requirements remain unchanged.
 
-No supervisor feedback has been received. The stakeholder deferred invitations for the supervisor and the remaining team member; access remains an explicit submission action. The checklist requires evidence of progressive repository contributions from every member, without specifying a code quota or commit count. Actual design/review findings and corrections can be committed by their author. Current task creation and document uploads do not reconstruct historical progression.
+Backend system/migration checks passed. The Flutter dependency check stopped because local Dart 3.12.2 does not satisfy the client's declared `^3.13.5`; analysis, tests and a web build require a compatible SDK. Prototype inspection covers local design interactions rather than integrated application acceptance. No submitted GitHub review was recorded on PRs 2–4 when inspected.
 
-[Versioned delivery evidence](https://github.com/sweezyxxx/qonys/blob/QON-3-submission-documentation/docs/delivery/2026-10-24.md) identifies checks, outstanding reviews and the stage-tag sequence.
+The submission owner must verify supervisor/committee access, complete review records and create `prob-period-1` on the final commit. One representative submits the form by 18:00 on 24 October, including the task-board/individual-task screenshots combined into one PDF of at most 10 MB. Each member's academic group and exact GitHub profile must be included.
+
+[Versioned delivery evidence](https://github.com/sweezyxxx/qonys/blob/main/docs/delivery/2026-10-24.md) records contributions, checks and remaining actions.

@@ -9,7 +9,7 @@ Each member commits through their own account and Git identity. Preserve existin
 5. Have another team member review it. Resolve material feedback before merging. Link the resulting PR/commit and verification evidence back to YouTrack.
 6. Update the affected living module, requirement and shared contract when behaviour changes. Preserve the dated defence snapshot separately.
 
-Use `pre-defense-1`, `pre-defense-2` and `final-pre-defense` as the respective stage tags. Apply a tag to the exact reviewed submission commit and record its commit URL in the delivery record. Do not move an existing submitted tag silently or tag a version as reviewed before actual review.
+The 24 October 2026 submission form requires `prob-period-1`. Use the exact tag announced for each later stage. Apply a tag to the exact reviewed submission commit and record its commit URL in the delivery record. Do not move an existing submitted tag silently or tag a version as reviewed before actual review.
 
 The submission owner verifies team, supervisor and committee access to the private repository and documentation. Do not change repository visibility as a substitute for granting the intended readers access.
 
